@@ -1,0 +1,7 @@
+\beamer@sectionintoc {1}{はじめに}{4}{0}{1}
+\beamer@sectionintoc {2}{人工知能の世界へようこそ}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{人工知能とは？}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{AIの歴史}{9}{0}{2}
+\beamer@subsectionintoc {2}{3}{AIの分類}{11}{0}{2}
+\beamer@subsectionintoc {2}{4}{ディープラーニング}{14}{0}{2}
+\beamer@sectionintoc {3}{現状の理解度チェック}{20}{0}{3}

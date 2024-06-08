@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{はじめに}{3}{0}{1}
+\beamer@sectionintoc {2}{ニューラルネットワークの考え方}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{ニューロン}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{ニューロンの働きの数理的解釈}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{ユニット}{12}{0}{2}
+\beamer@subsectionintoc {2}{4}{ニューラルネットワーク}{20}{0}{2}
