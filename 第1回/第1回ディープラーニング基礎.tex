@@ -188,4 +188,34 @@
 			\includegraphics[width=0.6\linewidth]{img/具体的なニューラルネットワークの解答例}
 		\end{figure}
 	\end{frame}
+	\begin{frame}{ニューラルネットワークでどのように判別されるか}
+		\underline{「0」を入力した場合の反応例}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{img/「0」を入力した場合のニューラルネットワークの反応の例}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{ニューラルネットワークでどのように判別されるか}
+		\underline{「1」を入力した場合の反応例}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{img/「1」を入力した場合のニューラルネットワークの反応の例}
+		\end{figure}
+	\end{frame}
+
+	\subsection{学習アルゴリズムの存在}
+	\begin{frame}{学習とは？}
+		\begin{itemize}
+			\item 学習データから\alert{重み}と\alert{バイアス}を決定すること
+			\begin{itemize}
+				\item ニューラルネットワークが算出した予測値と正解との誤差を算出し、\\ \uwave{その誤差の総和（$ = $\alert{コスト関数}$ C_\mathrm{T} $）が最小になるように}
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{学習とは？（図解）}
+		\begin{center}
+			\centering
+			\includegraphics[width=1.0\linewidth]{img/誤差の総和の最小化}
+		\end{center}
+	\end{frame}	
 \end{document}

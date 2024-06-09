@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  9 JUN 2024 11:42
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  9 JUN 2024 18:04
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1131,6 +1131,31 @@ Overfull \vbox (4.01219pt too high) detected at line 190
 [23
 
 ]
+File: img/「0」を入力した場合のニューラルネットワークの反応の例.png Graphic fil
+e (type bmp)
+<img/「0」を入力した場合のニューラルネットワークの反応の例.png>
+ [24
+
+]
+File: img/「1」を入力した場合のニューラルネットワークの反応の例.png Graphic fil
+e (type bmp)
+<img/「1」を入力した場合のニューラルネットワークの反応の例.png>
+ [25
+
+] [26
+
+] [27
+
+]
+File: img/誤差の総和の最小化.png Graphic file (type bmp)
+<img/誤差の総和の最小化.png>
+
+Overfull \vbox (10.89468pt too high) detected at line 220
+ []
+
+[28
+
+]
 \tf@nav=\write6
 \openout6 = `第1回ディープラーニング基礎.nav'.
 
@@ -1141,17 +1166,23 @@ Overfull \vbox (4.01219pt too high) detected at line 190
 \openout8 = `第1回ディープラーニング基礎.snm'.
 
  (./第1回ディープラーニング基礎.aux)
-Package rerunfilecheck Info: File `第1回ディープラーニング基礎.out' has not cha
-nged.
-(rerunfilecheck)             Checksum: AF49DB9495BCB2C854FDF84B7ABAC0F5;481.
+
+Package rerunfilecheck Warning: File `第1回ディープラーニング基礎.out' has chan
+ged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `第1回ディープラーニング基礎.out':
+(rerunfilecheck)             Before: A0C70DEBC8654FABEE1BDC9FDC476EBB;650
+(rerunfilecheck)             After:  4F78A88045AF0244446964796D129383;564.
  ) 
 Here is how much of TeX's memory you used:
- 25579 strings out of 480553
- 497266 string characters out of 5904004
- 770096 words of memory out of 5000000
- 42978 multiletter control sequences out of 15000+600000
+ 25641 strings out of 480553
+ 499829 string characters out of 5904004
+ 770331 words of memory out of 5000000
+ 43037 multiletter control sequences out of 15000+600000
  452663 words of font info for 103 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1818b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 第1回ディープラーニング基礎.dvi (23 pages, 78940 bytes).
+Output written on 第1回ディープラーニング基礎.dvi (28 pages, 96548 bytes).

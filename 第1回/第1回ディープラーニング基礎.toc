@@ -4,3 +4,4 @@
 \beamer@subsectionintoc {2}{2}{ニューロンの働きの数理的解釈}{8}{0}{2}
 \beamer@subsectionintoc {2}{3}{ユニット}{12}{0}{2}
 \beamer@subsectionintoc {2}{4}{ニューラルネットワーク}{20}{0}{2}
+\beamer@subsectionintoc {2}{5}{学習アルゴリズムの存在}{26}{0}{2}
