@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  5 JUN 2024 23:49
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  9 JUN 2024 11:42
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1033,15 +1033,15 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ] [6
 
 ]
-File: ニューロンの働き.png Graphic file (type bmp)
-<ニューロンの働き.png>
+File: img/ニューロンの働き.png Graphic file (type bmp)
+<img/ニューロンの働き.png>
  [7
 
 ] [8
 
 ]
-File: ニューロンの数理的解釈.png Graphic file (type bmp)
-<ニューロンの数理的解釈.png>
+File: img/ニューロンの数理的解釈.png Graphic file (type bmp)
+<img/ニューロンの数理的解釈.png>
 
 Overfull \vbox (13.8287pt too high) detected at line 72
  []
@@ -1049,27 +1049,27 @@ Overfull \vbox (13.8287pt too high) detected at line 72
 [9
 
 ]
-File: 発火の条件のグラフ.png Graphic file (type bmp)
-<発火の条件のグラフ.png>
+File: img/発火の条件のグラフ.png Graphic file (type bmp)
+<img/発火の条件のグラフ.png>
  [10
 
 ]
-File: 単位ステップ関数.png Graphic file (type bmp)
-<単位ステップ関数.png>
+File: img/単位ステップ関数.png Graphic file (type bmp)
+<img/単位ステップ関数.png>
  [11
 
 ] [12
 
 ]
-File: ユニット.png Graphic file (type bmp)
-<ユニット.png>
+File: img/ユニット.png Graphic file (type bmp)
+<img/ユニット.png>
  [13
 
 ] [14
 
 ]
-File: 単位ステップ関数とシグモイド関数.png Graphic file (type bmp)
-<単位ステップ関数とシグモイド関数.png>
+File: img/単位ステップ関数とシグモイド関数.png Graphic file (type bmp)
+<img/単位ステップ関数とシグモイド関数.png>
 
 Overfull \vbox (23.29796pt too high) detected at line 126
  []
@@ -1077,8 +1077,8 @@ Overfull \vbox (23.29796pt too high) detected at line 126
 [15
 
 ]
-File: ユニットの興奮度小.png Graphic file (type bmp)
-<ユニットの興奮度小.png>
+File: img/ユニットの興奮度小.png Graphic file (type bmp)
+<img/ユニットの興奮度小.png>
 
 Overfull \vbox (11.26297pt too high) detected at line 135
  []
@@ -1086,8 +1086,8 @@ Overfull \vbox (11.26297pt too high) detected at line 135
 [16
 
 ]
-File: ユニットの興奮度大.png Graphic file (type bmp)
-<ユニットの興奮度大.png>
+File: img/ユニットの興奮度大.png Graphic file (type bmp)
+<img/ユニットの興奮度大.png>
 
 Overfull \vbox (11.26297pt too high) detected at line 144
  []
@@ -1097,15 +1097,15 @@ Overfull \vbox (11.26297pt too high) detected at line 144
 ] [18
 
 ]
-File: ユニットのまとめ.png Graphic file (type bmp)
-<ユニットのまとめ.png>
+File: img/ユニットのまとめ.png Graphic file (type bmp)
+<img/ユニットのまとめ.png>
  [19
 
 ] [20
 
 ]
-File: 階層型ニューラルネットワーク.png Graphic file (type bmp)
-<階層型ニューラルネットワーク.png>
+File: img/階層型ニューラルネットワーク.png Graphic file (type bmp)
+<img/階層型ニューラルネットワーク.png>
  [21
 
 ]
@@ -1113,8 +1113,8 @@ LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10.95> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 183.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10.95> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 183.
-File: 0と1の画像の例.png Graphic file (type bmp)
-<0と1の画像の例.png>
+File: img/0と1の画像の例.png Graphic file (type bmp)
+<img/0と1の画像の例.png>
 
 Overfull \vbox (6.49763pt too high) detected at line 183
  []
@@ -1122,8 +1122,8 @@ Overfull \vbox (6.49763pt too high) detected at line 183
 [22
 
 ]
-File: 具体的なニューラルネットワークの解答例.png Graphic file (type bmp)
-<具体的なニューラルネットワークの解答例.png>
+File: img/具体的なニューラルネットワークの解答例.png Graphic file (type bmp)
+<img/具体的なニューラルネットワークの解答例.png>
 
 Overfull \vbox (4.01219pt too high) detected at line 190
  []
@@ -1146,12 +1146,12 @@ nged.
 (rerunfilecheck)             Checksum: AF49DB9495BCB2C854FDF84B7ABAC0F5;481.
  ) 
 Here is how much of TeX's memory you used:
- 25577 strings out of 480553
- 496883 string characters out of 5904004
+ 25579 strings out of 480553
+ 497266 string characters out of 5904004
  770096 words of memory out of 5000000
  42978 multiletter control sequences out of 15000+600000
  452663 words of font info for 103 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1818b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 第1回ディープラーニング基礎.dvi (23 pages, 78892 bytes).
+Output written on 第1回ディープラーニング基礎.dvi (23 pages, 78940 bytes).
