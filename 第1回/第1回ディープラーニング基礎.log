@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  9 JUN 2024 18:04
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  17 JUN 2024 23:05
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -719,6 +719,43 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 Package: ulem 2019/11/18
 \ULdepth=\dimen312
 )
+(d:/texlive/2021/texmf-dist/tex/latex/ascmac/ascmac.sty
+Package: ascmac 2020/01/15 v2.1 ascmac wrapper (community edition) 
+
+(d:/texlive/2021/texmf-dist/tex/latex/ascmac/tascmac.sty
+Package: tascmac 2020/01/15 v2.1 ascmac package (community edition) 
+\@savetbaselineshift=\dimen313
+\@saveybaselineshift=\dimen314
+\scb@x=\box97
+\scscb@x=\box98
+\@bw=\dimen315
+\@nbox=\box99
+\@nbody=\box100
+\@scw=\dimen316
+\ascmac@hoboxa=\box101
+\ascmac@hoboxb=\box102
+\@itemh=\dimen317
+\@iboxpos=\toks47
+\@iboxstr=\box103
+\@bwsp=\box104
+\@@bwsp=\box105
+\@bcal=\count333
+\shaderule=\dimen318
+))
+(d:/texlive/2021/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box106
+\shadowsize=\dimen319
+\@Sbox=\box107
+\do@VerbBox=\toks48
+\the@fancyput=\toks49
+\this@fancyput=\toks50
+\EndVerbatimTokens=\toks51
+\Verbatim@Outfile=\write5
+\Verbatim@Infile=\read3
+)
 (d:/texlive/2021/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropo
 lis.sty
 
@@ -731,8 +768,8 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 
 (d:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
-\pgfopts@list@add@a@toks=\toks47
-\pgfopts@list@add@b@toks=\toks48
+\pgfopts@list@add@a@toks=\toks52
+\pgfopts@list@add@b@toks=\toks53
 )
 (d:/texlive/2021/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememe
 tropolis.sty
@@ -743,7 +780,7 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box97
+\pgfnodeparttextbox=\box108
 )
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -751,8 +788,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (d:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen313
-\pgf@nodesepend=\dimen314
+\pgf@nodesepstart=\dimen320
+\pgf@nodesepend=\dimen321
 )
 (d:/texlive/2021/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -764,10 +801,10 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen315
-\pgffor@skip=\dimen316
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@iter=\dimen322
+\pgffor@skip=\dimen323
+\pgffor@stack=\toks54
+\pgffor@toks=\toks55
 ))
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
@@ -775,33 +812,33 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count333
-\pgfplotmarksize=\dimen317
+\pgf@plot@mark@count=\count334
+\pgfplotmarksize=\dimen324
 )
-\tikz@lastx=\dimen318
-\tikz@lasty=\dimen319
-\tikz@lastxsaved=\dimen320
-\tikz@lastysaved=\dimen321
-\tikz@lastmovetox=\dimen322
-\tikz@lastmovetoy=\dimen323
-\tikzleveldistance=\dimen324
-\tikzsiblingdistance=\dimen325
-\tikz@figbox=\box98
-\tikz@figbox@bg=\box99
-\tikz@tempbox=\box100
-\tikz@tempbox@bg=\box101
-\tikztreelevel=\count334
-\tikznumberofchildren=\count335
-\tikznumberofcurrentchild=\count336
-\tikz@fig@count=\count337
+\tikz@lastx=\dimen325
+\tikz@lasty=\dimen326
+\tikz@lastxsaved=\dimen327
+\tikz@lastysaved=\dimen328
+\tikz@lastmovetox=\dimen329
+\tikz@lastmovetoy=\dimen330
+\tikzleveldistance=\dimen331
+\tikzsiblingdistance=\dimen332
+\tikz@figbox=\box109
+\tikz@figbox@bg=\box110
+\tikz@tempbox=\box111
+\tikz@tempbox@bg=\box112
+\tikztreelevel=\count335
+\tikznumberofchildren=\count336
+\tikznumberofcurrentchild=\count337
+\tikz@fig@count=\count338
 
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count338
-\pgfmatrixcurrentcolumn=\count339
-\pgf@matrix@numberofcolumns=\count340
+\pgfmatrixcurrentrow=\count339
+\pgfmatrixcurrentcolumn=\count340
+\pgf@matrix@numberofcolumns=\count341
 )
-\tikz@expandcount=\count341
+\tikz@expandcount=\count342
 
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
@@ -843,31 +880,31 @@ aTeX to use the Fira fonts on input line 95.
 ty) (d:/texlive/2021/texmf-dist/tex/latex/here/here.sty)
 (d:/texlive/2021/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count342
-\float@exts=\toks51
-\float@box=\box102
-\@float@everytoks=\toks52
-\@floatcapt=\box103
+\c@float@type=\count343
+\float@exts=\toks56
+\float@box=\box113
+\@float@everytoks=\toks57
+\@floatcapt=\box114
 )
 (d:/texlive/2021/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen326
-\lightrulewidth=\dimen327
-\cmidrulewidth=\dimen328
-\belowrulesep=\dimen329
-\belowbottomsep=\dimen330
-\aboverulesep=\dimen331
-\abovetopsep=\dimen332
-\cmidrulesep=\dimen333
-\cmidrulekern=\dimen334
-\defaultaddspace=\dimen335
-\@cmidla=\count343
-\@cmidlb=\count344
-\@aboverulesep=\dimen336
-\@belowrulesep=\dimen337
-\@thisruleclass=\count345
-\@lastruleclass=\count346
-\@thisrulewidth=\dimen338
+\heavyrulewidth=\dimen333
+\lightrulewidth=\dimen334
+\cmidrulewidth=\dimen335
+\belowrulesep=\dimen336
+\belowbottomsep=\dimen337
+\aboverulesep=\dimen338
+\abovetopsep=\dimen339
+\cmidrulesep=\dimen340
+\cmidrulekern=\dimen341
+\defaultaddspace=\dimen342
+\@cmidla=\count344
+\@cmidlb=\count345
+\@aboverulesep=\dimen343
+\@belowrulesep=\dimen344
+\@thisruleclass=\count346
+\@lastruleclass=\count347
+\@thisrulewidth=\dimen345
 )
 (d:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarypositioning.code.tex
@@ -877,39 +914,39 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: l3backend-dvipdfmx.def 2021-10-12 L3 backend support: dvipdfmx
 
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count347
-\l__color_backend_stack_int=\count348
-\g__color_backend_stack_int=\count349
-\g__graphics_track_int=\count350
-\l__pdf_internal_box=\box104
-\g__pdf_backend_object_int=\count351
-\g__pdf_backend_annotation_int=\count352
-\g__pdf_backend_link_int=\count353
+\c__kernel_sys_dvipdfmx_version_int=\count348
+\l__color_backend_stack_int=\count349
+\g__color_backend_stack_int=\count350
+\g__graphics_track_int=\count351
+\l__pdf_internal_box=\box115
+\g__pdf_backend_object_int=\count352
+\g__pdf_backend_annotation_int=\count353
+\g__pdf_backend_link_int=\count354
 ) (./第1回ディープラーニング基礎.aux)
 \openout1 = `第1回ディープラーニング基礎.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
@@ -944,7 +981,7 @@ LaTeX Font Info:    ... okay on input line 31.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 33.
 (d:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -954,15 +991,15 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (d:/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count354
+\c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (./第1回ディープラーニング基礎.out) (./第1回ディープラーニング基礎.out)
-\@outlinefile=\write5
-\openout5 = `第1回ディープラーニング基礎.out'.
+\@outlinefile=\write6
+\openout6 = `第1回ディープラーニング基礎.out'.
 
 
 (d:/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
@@ -990,41 +1027,45 @@ English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./第1回ディープラーニング基礎.nav)
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
 
-Overfull \vbox (15.63992pt too high) detected at line 35
+Overfull \vbox (15.63992pt too high) detected at line 37
  []
 
 [1
 
-] (./第1回ディープラーニング基礎.toc)
-LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 40.
-LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 40.
- [2
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+] (./第1回ディープラーニング基礎.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
 
 (d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 
 
 (d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3
+))
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
+
+
+Class beamer Warning: Frame text is shrunk by a factor of 43.37616 percent inst
+ead of 0 percent on input line 42.
+
+[2
+
+] [3
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-47.
-
-(d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
+50.
+ (d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [4
 
@@ -1033,63 +1074,64 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ] [6
 
 ]
-File: img/ニューロンの働き.png Graphic file (type bmp)
-<img/ニューロンの働き.png>
- [7
+File: img/function-of-neurons.png Graphic file (type bmp)
+<img/function-of-neurons.png>
+
+[7
 
 ] [8
 
 ]
-File: img/ニューロンの数理的解釈.png Graphic file (type bmp)
-<img/ニューロンの数理的解釈.png>
+File: img/mathematical-interpretation-of-neurons.png Graphic file (type bmp)
+<img/mathematical-interpretation-of-neurons.png>
 
-Overfull \vbox (13.8287pt too high) detected at line 72
+Overfull \vbox (13.8287pt too high) detected at line 75
  []
 
 [9
 
 ]
-File: img/発火の条件のグラフ.png Graphic file (type bmp)
-<img/発火の条件のグラフ.png>
+File: img/graph-of-ignition-conditions.png Graphic file (type bmp)
+<img/graph-of-ignition-conditions.png>
  [10
 
 ]
-File: img/単位ステップ関数.png Graphic file (type bmp)
-<img/単位ステップ関数.png>
+File: img/unit-step-function.png Graphic file (type bmp)
+<img/unit-step-function.png>
  [11
 
 ] [12
 
 ]
-File: img/ユニット.png Graphic file (type bmp)
-<img/ユニット.png>
+File: img/unit.png Graphic file (type bmp)
+<img/unit.png>
  [13
 
 ] [14
 
 ]
-File: img/単位ステップ関数とシグモイド関数.png Graphic file (type bmp)
-<img/単位ステップ関数とシグモイド関数.png>
+File: img/unit-step-function-and-sigmoid-function.png Graphic file (type bmp)
+<img/unit-step-function-and-sigmoid-function.png>
 
-Overfull \vbox (23.29796pt too high) detected at line 126
+Overfull \vbox (23.29796pt too high) detected at line 129
  []
 
 [15
 
 ]
-File: img/ユニットの興奮度小.png Graphic file (type bmp)
-<img/ユニットの興奮度小.png>
+File: img/unit-excitement-low.png Graphic file (type bmp)
+<img/unit-excitement-low.png>
 
-Overfull \vbox (11.26297pt too high) detected at line 135
+Overfull \vbox (11.26297pt too high) detected at line 138
  []
 
 [16
 
 ]
-File: img/ユニットの興奮度大.png Graphic file (type bmp)
-<img/ユニットの興奮度大.png>
+File: img/unit-excitement-high.png Graphic file (type bmp)
+<img/unit-excitement-high.png>
 
-Overfull \vbox (11.26297pt too high) detected at line 144
+Overfull \vbox (11.26297pt too high) detected at line 147
  []
 
 [17
@@ -1097,92 +1139,195 @@ Overfull \vbox (11.26297pt too high) detected at line 144
 ] [18
 
 ]
-File: img/ユニットのまとめ.png Graphic file (type bmp)
-<img/ユニットのまとめ.png>
+File: img/summary-of-unit.png Graphic file (type bmp)
+<img/summary-of-unit.png>
  [19
 
 ] [20
 
 ]
-File: img/階層型ニューラルネットワーク.png Graphic file (type bmp)
-<img/階層型ニューラルネットワーク.png>
+File: img/hierarchical-neural-network.png Graphic file (type bmp)
+<img/hierarchical-neural-network.png>
  [21
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 183.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 183.
-File: img/0と1の画像の例.png Graphic file (type bmp)
-<img/0と1の画像の例.png>
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 186.
+File: img/examples-of-0-and-1-images.png Graphic file (type bmp)
+<img/examples-of-0-and-1-images.png>
 
-Overfull \vbox (6.49763pt too high) detected at line 183
+Overfull \vbox (6.49763pt too high) detected at line 186
  []
 
 [22
 
 ]
-File: img/具体的なニューラルネットワークの解答例.png Graphic file (type bmp)
-<img/具体的なニューラルネットワークの解答例.png>
+File: img/examples-of-specific-neural-network-solutions.png Graphic file (type 
+bmp)
+<img/examples-of-specific-neural-network-solutions.png>
 
-Overfull \vbox (4.01219pt too high) detected at line 190
+Overfull \vbox (4.01219pt too high) detected at line 193
  []
 
 [23
 
 ]
-File: img/「0」を入力した場合のニューラルネットワークの反応の例.png Graphic fil
+File: img/example-of-response-of-neural-network-when-0-is-input.png Graphic fil
 e (type bmp)
-<img/「0」を入力した場合のニューラルネットワークの反応の例.png>
- [24
+<img/example-of-response-of-neural-network-when-0-is-input.png>
+
+Overfull \vbox (6.3002pt too high) detected at line 199
+ []
+
+[24
 
 ]
-File: img/「1」を入力した場合のニューラルネットワークの反応の例.png Graphic fil
+File: img/example-of-response-of-neural-network-when-1-is-input.png Graphic fil
 e (type bmp)
-<img/「1」を入力した場合のニューラルネットワークの反応の例.png>
- [25
+<img/example-of-response-of-neural-network-when-1-is-input.png>
+
+Overfull \vbox (6.3002pt too high) detected at line 205
+ []
+
+[25
 
 ] [26
 
 ] [27
 
-]
-File: img/誤差の総和の最小化.png Graphic file (type bmp)
-<img/誤差の総和の最小化.png>
+] [28
 
-Overfull \vbox (10.89468pt too high) detected at line 220
+]
+File: img/example-of-simultaneous-asymptotic-formulas.png Graphic file (type bm
+p)
+<img/example-of-simultaneous-asymptotic-formulas.png>
+ [29
+
+] [30
+
+]
+File: img/directed-line-segment-and-vector.png Graphic file (type bmp)
+<img/directed-line-segment-and-vector.png>
+ [31
+
+]
+File: img/component-display-of-vectors.png Graphic file (type bmp)
+<img/component-display-of-vectors.png>
+ [32
+
+] [33
+
+] [34
+
+] [35
+
+]
+File: img/summary-of-unit.png Graphic file (type bmp)
+<img/summary-of-unit.png>
+ [36
+
+]
+File: img/example-of-matrix.png Graphic file (type bmp)
+<img/example-of-matrix.png>
+ [37
+
+] [38
+
+] [39
+
+]
+File: img/meening-of-derivative.png Graphic file (type bmp)
+<img/meening-of-derivative.png>
+
+[40
+
+] [41
+
+] [42
+
+] [43
+
+]
+File: img/condition-for-minimum-value-of-function.png Graphic file (type bmp)
+<img/condition-for-minimum-value-of-function.png>
+
+Overfull \vbox (25.86974pt too high) detected at line 432
  []
 
-[28
+[44
 
 ]
-\tf@nav=\write6
-\openout6 = `第1回ディープラーニング基礎.nav'.
+File: img/necessary-condition-for-the-function-to-be-minimal.png Graphic file (
+type bmp)
+<img/necessary-condition-for-the-function-to-be-minimal.png>
 
-\tf@toc=\write7
-\openout7 = `第1回ディープラーニング基礎.toc'.
+Overfull \vbox (5.58005pt too high) detected at line 442
+ []
 
-\tf@snm=\write8
-\openout8 = `第1回ディープラーニング基礎.snm'.
+[45
+
+]
+File: img/explanation-of-mutivariate-function.png Graphic file (type bmp)
+<img/explanation-of-mutivariate-function.png>
+ [46
+
+] [47
+
+] [48
+
+] [49
+
+] [50
+
+] [51
+
+]
+File: img/composite-function.png Graphic file (type bmp)
+<img/composite-function.png>
+ [52
+
+]
+File: img/chain-rule-at-1-variable.png Graphic file (type bmp)
+<img/chain-rule-at-1-variable.png>
+
+Overfull \vbox (14.69879pt too high) detected at line 529
+ []
+
+[53
+
+] [54
+
+]
+File: img/chain-rule-of-multivariable-functions.png Graphic file (type bmp)
+<img/chain-rule-of-multivariable-functions.png>
+ [55
+
+] [56
+
+]
+\tf@nav=\write7
+\openout7 = `第1回ディープラーニング基礎.nav'.
+
+\tf@toc=\write8
+\openout8 = `第1回ディープラーニング基礎.toc'.
+
+\tf@snm=\write9
+\openout9 = `第1回ディープラーニング基礎.snm'.
 
  (./第1回ディープラーニング基礎.aux)
-
-Package rerunfilecheck Warning: File `第1回ディープラーニング基礎.out' has chan
-ged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `第1回ディープラーニング基礎.out':
-(rerunfilecheck)             Before: A0C70DEBC8654FABEE1BDC9FDC476EBB;650
-(rerunfilecheck)             After:  4F78A88045AF0244446964796D129383;564.
+Package rerunfilecheck Info: File `第1回ディープラーニング基礎.out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 63EE4BB71C0008A518D72AB27ED80FEF;802.
  ) 
 Here is how much of TeX's memory you used:
- 25641 strings out of 480553
- 499829 string characters out of 5904004
- 770331 words of memory out of 5000000
- 43037 multiletter control sequences out of 15000+600000
- 452663 words of font info for 103 fonts, out of 8000000 for 9000
+ 26217 strings out of 480553
+ 513081 string characters out of 5904004
+ 782136 words of memory out of 5000000
+ 43575 multiletter control sequences out of 15000+600000
+ 457843 words of font info for 122 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,14n,124p,1818b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,16n,124p,1818b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 第1回ディープラーニング基礎.dvi (28 pages, 96548 bytes).
+Output written on 第1回ディープラーニング基礎.dvi (56 pages, 212504 bytes).
