@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  17 JUN 2024 23:05
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  23 JUN 2024 18:17
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
  %&-line parsing enabled.
-**第1回ディープラーニング基礎.tex
-(./第1回ディープラーニング基礎.tex
+**deep-learning-basics-1.tex
+(./deep-learning-basics-1.tex
 pLaTeX2e <2021-06-01>+2 (based on LaTeX2e <2021-06-01> patch level 1)
 L3 programming layer <2021-10-12>
 (d:/texlive/2021/texmf-dist/tex/latex/beamer/beamer.cls
@@ -922,8 +922,8 @@ File: l3backend-dvipdfmx.def 2021-10-12 L3 backend support: dvipdfmx
 \g__pdf_backend_object_int=\count352
 \g__pdf_backend_annotation_int=\count353
 \g__pdf_backend_link_int=\count354
-) (./第1回ディープラーニング基礎.aux)
-\openout1 = `第1回ディープラーニング基礎.aux'.
+) (./deep-learning-basics-1.aux)
+\openout1 = `deep-learning-basics-1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -997,9 +997,9 @@ LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
 
-(./第1回ディープラーニング基礎.out) (./第1回ディープラーニング基礎.out)
+(./deep-learning-basics-1.out) (./deep-learning-basics-1.out)
 \@outlinefile=\write6
-\openout6 = `第1回ディープラーニング基礎.out'.
+\openout6 = `deep-learning-basics-1.out'.
 
 
 (d:/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
@@ -1025,7 +1025,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (d:/texlive/2021/texmf-dist/tex/latex/translator/translator-theorem-dictionary-
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./第1回ディープラーニング基礎.nav)
+) (./deep-learning-basics-1.nav)
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
@@ -1036,7 +1036,7 @@ Overfull \vbox (15.63992pt too high) detected at line 37
 
 [1
 
-] (./第1回ディープラーニング基礎.toc
+] (./deep-learning-basics-1.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
 
@@ -1177,21 +1177,13 @@ Overfull \vbox (4.01219pt too high) detected at line 193
 File: img/example-of-response-of-neural-network-when-0-is-input.png Graphic fil
 e (type bmp)
 <img/example-of-response-of-neural-network-when-0-is-input.png>
-
-Overfull \vbox (6.3002pt too high) detected at line 199
- []
-
-[24
+ [24
 
 ]
 File: img/example-of-response-of-neural-network-when-1-is-input.png Graphic fil
 e (type bmp)
 <img/example-of-response-of-neural-network-when-1-is-input.png>
-
-Overfull \vbox (6.3002pt too high) detected at line 205
- []
-
-[25
+ [25
 
 ] [26
 
@@ -1233,15 +1225,15 @@ File: img/example-of-matrix.png Graphic file (type bmp)
 <img/example-of-matrix.png>
  [37
 
-] [38
+]
+[38
 
 ] [39
 
 ]
 File: img/meening-of-derivative.png Graphic file (type bmp)
 <img/meening-of-derivative.png>
-
-[40
+ [40
 
 ] [41
 
@@ -1308,26 +1300,26 @@ File: img/chain-rule-of-multivariable-functions.png Graphic file (type bmp)
 
 ]
 \tf@nav=\write7
-\openout7 = `第1回ディープラーニング基礎.nav'.
+\openout7 = `deep-learning-basics-1.nav'.
 
 \tf@toc=\write8
-\openout8 = `第1回ディープラーニング基礎.toc'.
+\openout8 = `deep-learning-basics-1.toc'.
 
 \tf@snm=\write9
-\openout9 = `第1回ディープラーニング基礎.snm'.
+\openout9 = `deep-learning-basics-1.snm'.
 
- (./第1回ディープラーニング基礎.aux)
-Package rerunfilecheck Info: File `第1回ディープラーニング基礎.out' has not cha
-nged.
+ (./deep-learning-basics-1.aux)
+Package rerunfilecheck Info: File `deep-learning-basics-1.out' has not changed.
+
 (rerunfilecheck)             Checksum: 63EE4BB71C0008A518D72AB27ED80FEF;802.
  ) 
 Here is how much of TeX's memory you used:
  26217 strings out of 480553
- 513081 string characters out of 5904004
- 782136 words of memory out of 5000000
+ 512956 string characters out of 5904004
+ 782184 words of memory out of 5000000
  43575 multiletter control sequences out of 15000+600000
  457843 words of font info for 122 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,16n,124p,1818b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,16n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 第1回ディープラーニング基礎.dvi (56 pages, 212504 bytes).
+Output written on deep-learning-basics-1.dvi (56 pages, 212132 bytes).
