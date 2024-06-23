@@ -34,8 +34,14 @@
 \headcommand {\beamer@framepages {13}{13}}
 \headcommand {\slideentry {2}{1}{9}{14/14}{勾配降下法の基本概念}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@partpages {1}{14}}
-\headcommand {\beamer@subsectionpages {6}{14}}
-\headcommand {\beamer@sectionpages {5}{14}}
-\headcommand {\beamer@documentpages {14}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\slideentry {2}{1}{9}{14/15}{勾配降下法の基本概念}{0}}
+\headcommand {\beamer@framepages {14}{15}}
+\headcommand {\slideentry {2}{1}{10}{16/16}{勾配降下法の基本概念}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {2}{1}{11}{17/17}{勾配降下法の基本概念}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\beamer@partpages {1}{17}}
+\headcommand {\beamer@subsectionpages {6}{17}}
+\headcommand {\beamer@sectionpages {5}{17}}
+\headcommand {\beamer@documentpages {17}}
+\headcommand {\gdef \inserttotalframenumber {14}}

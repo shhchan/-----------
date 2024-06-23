@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  23 JUN 2024 23:11
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  24 JUN 2024 08:36
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1111,11 +1111,18 @@ Overfull \vbox (10.33572pt too high) detected at line 100
 
 ] [13
 
+] [14
+
+] [15
+
+
+] [16
+
 ]
-Overfull \vbox (32.31407pt too high) detected at line 133
+Overfull \vbox (32.31407pt too high) detected at line 171
  []
 
-[14
+[17
 
 ]
 \tf@nav=\write7
@@ -1133,12 +1140,12 @@ Package rerunfilecheck Info: File `deep-learning-basics-2.out' has not changed.
 (rerunfilecheck)             Checksum: C96484E8877779EF84C89E9F570ED4B9;230.
  ) 
 Here is how much of TeX's memory you used:
- 25633 strings out of 480553
- 496774 string characters out of 5904004
- 780816 words of memory out of 5000000
- 43033 multiletter control sequences out of 15000+600000
- 448880 words of font info for 88 fonts, out of 8000000 for 9000
+ 25697 strings out of 480553
+ 498098 string characters out of 5904004
+ 780888 words of memory out of 5000000
+ 43084 multiletter control sequences out of 15000+600000
+ 452979 words of font info for 102 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-2.dvi (14 pages, 47148 bytes).
+Output written on deep-learning-basics-2.dvi (17 pages, 58664 bytes).
