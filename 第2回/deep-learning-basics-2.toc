@@ -1,1 +1,3 @@
 \beamer@sectionintoc {1}{はじめに}{3}{0}{1}
+\beamer@sectionintoc {2}{勾配降下法}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{勾配降下法の基本概念}{6}{0}{2}
