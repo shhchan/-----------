@@ -1,10 +1,10 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  1 JUN 2024 11:35
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  23 JUN 2024 18:27
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
  %&-line parsing enabled.
-**ディープラーニング基礎.tex
-(./ディープラーニング基礎.tex
+**deep-learning-basics-0.tex
+(./deep-learning-basics-0.tex
 pLaTeX2e <2021-06-01>+2 (based on LaTeX2e <2021-06-01> patch level 1)
 L3 programming layer <2021-10-12>
 (d:/texlive/2021/texmf-dist/tex/latex/beamer/beamer.cls
@@ -873,8 +873,8 @@ File: l3backend-dvipdfmx.def 2021-10-12 L3 backend support: dvipdfmx
 \g__pdf_backend_object_int=\count350
 \g__pdf_backend_annotation_int=\count351
 \g__pdf_backend_link_int=\count352
-) (./ディープラーニング基礎.aux)
-\openout1 = `ディープラーニング基礎.aux'.
+) (./deep-learning-basics-0.aux)
+\openout1 = `deep-learning-basics-0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -948,9 +948,9 @@ LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
 
-(./ディープラーニング基礎.out) (./ディープラーニング基礎.out)
+(./deep-learning-basics-0.out) (./deep-learning-basics-0.out)
 \@outlinefile=\write5
-\openout5 = `ディープラーニング基礎.out'.
+\openout5 = `deep-learning-basics-0.out'.
 
 
 (d:/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
@@ -976,7 +976,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 (d:/texlive/2021/texmf-dist/tex/latex/translator/translator-theorem-dictionary-
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./ディープラーニング基礎.nav)
+) (./deep-learning-basics-0.nav)
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
@@ -1000,7 +1000,7 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
  [2
 
 ]
-(./ディープラーニング基礎.toc) [3
+(./deep-learning-basics-0.toc) [3
 
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
@@ -1063,8 +1063,8 @@ ad of 0 percent on input line 191.
 ] [17
 
 ]
-File: ディープラーニングの仕組み（概要）.png Graphic file (type bmp)
-<ディープラーニングの仕組み（概要）.png>
+File: img/how-deep-learning-works(overview).png Graphic file (type bmp)
+<img/how-deep-learning-works(overview).png>
 
 Overfull \vbox (18.85188pt too high) detected at line 280
  []
@@ -1072,8 +1072,8 @@ Overfull \vbox (18.85188pt too high) detected at line 280
 [18
 
 ]
-File: 数学ロードマップ.png Graphic file (type bmp)
-<数学ロードマップ.png>
+File: img/math-roadmap.png Graphic file (type bmp)
+<img/math-roadmap.png>
 
 Overfull \vbox (20.31732pt too high) detected at line 287
  []
@@ -1094,26 +1094,26 @@ Overfull \vbox (20.31732pt too high) detected at line 287
 
 ]
 \tf@nav=\write6
-\openout6 = `ディープラーニング基礎.nav'.
+\openout6 = `deep-learning-basics-0.nav'.
 
 \tf@toc=\write7
-\openout7 = `ディープラーニング基礎.toc'.
+\openout7 = `deep-learning-basics-0.toc'.
 
 \tf@snm=\write8
-\openout8 = `ディープラーニング基礎.snm'.
+\openout8 = `deep-learning-basics-0.snm'.
 
- (./ディープラーニング基礎.aux)
-Package rerunfilecheck Info: File `ディープラーニング基礎.out' has not changed.
+ (./deep-learning-basics-0.aux)
+Package rerunfilecheck Info: File `deep-learning-basics-0.out' has not changed.
 
 (rerunfilecheck)             Checksum: 1788F87C7D89D903056461CD95985670;505.
  ) 
 Here is how much of TeX's memory you used:
- 25467 strings out of 480553
- 493753 string characters out of 5904004
- 859926 words of memory out of 5000000
+ 25469 strings out of 480553
+ 493771 string characters out of 5904004
+ 859978 words of memory out of 5000000
  42866 multiletter control sequences out of 15000+600000
  457970 words of font info for 121 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,15n,124p,1813b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ディープラーニング基礎.dvi (25 pages, 169184 bytes).
+Output written on deep-learning-basics-0.dvi (25 pages, 169188 bytes).
