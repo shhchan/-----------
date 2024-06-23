@@ -4,3 +4,15 @@
 \beamer@subsectionintoc {2}{2}{ニューロンの働きの数理的解釈}{8}{0}{2}
 \beamer@subsectionintoc {2}{3}{ユニット}{12}{0}{2}
 \beamer@subsectionintoc {2}{4}{ニューラルネットワーク}{20}{0}{2}
+\beamer@sectionintoc {3}{数学の基礎}{26}{0}{3}
+\beamer@subsectionintoc {3}{1}{ニューラルネットワークのための数学}{27}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{1}{数列と漸化式}{28}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{2}{$ \DOTSB \sum@ \slimits@ $記号}{30}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{3}{ベクトル}{31}{0}{3}
+\beamer@subsubsectionintoc {3}{1}{4}{行列}{37}{0}{3}
+\beamer@subsectionintoc {3}{2}{勾配降下法のための数学}{38}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{1}{微分}{39}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{2}{偏微分}{46}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{3}{関数の近似公式}{49}{0}{3}
+\beamer@subsectionintoc {3}{3}{誤差逆伝播法のための数学}{51}{0}{3}
+\beamer@subsubsectionintoc {3}{3}{1}{連鎖律}{52}{0}{3}
