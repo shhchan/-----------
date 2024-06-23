@@ -95,7 +95,7 @@
 			\includegraphics[width=0.7\linewidth]{img/change-in-value-of-a-multivariable-function}
 		\end{figure}
 		\begin{itemize}
-			\item $ \Delta x,\ \Delta y $は具体的にどう決める？
+			\item 最速で転がる（$ \Delta z $が最小になる）には$ \Delta x,\ \Delta y $をどう決める？
 		\end{itemize}
 	\end{frame}
 	\begin{frame}{勾配降下法の基本式}
@@ -107,7 +107,45 @@
 			\end{bmatrix} $（$ \eta $：正の小さな定数）
 		\end{screen}
 	\end{frame}
-
+	\begin{frame}[allowframebreaks]{勾配降下法の基本式の導出}
+		\alert{「関数の近似公式　簡潔 ver.」}（第1回）より、
+		\begin{equation*}
+			\Delta z \simeq \left\langle \begin{bmatrix}
+				\dfrac{\partial z}{\partial x}\vspace{1em}\\
+				\dfrac{\partial z}{\partial y}
+			\end{bmatrix},\ \begin{bmatrix}
+				\Delta x\\
+				\Delta y
+			\end{bmatrix} \right\rangle.
+		\end{equation*}
+		「\alert{ベクトルの基本公式}」（第１回）の内積の式
+		\begin{equation*}
+			\left\langle \boldsymbol{a},\ \boldsymbol{b} \right\rangle \triangleq \|\boldsymbol{a}\| \|\boldsymbol{b}\| \cos \theta
+		\end{equation*}
+		および、コーシー・シュワルツの不等式
+		\begin{equation*}
+			-\|\boldsymbol{a}\| \|\boldsymbol{b}\| \leq \langle\boldsymbol{a}, \boldsymbol{b}\rangle \leq \|\boldsymbol{a}\| \|\boldsymbol{b}\|
+		\end{equation*}
+		より、内積が最小となるのは$ \cos\theta=-1 $のとき、すなわち、ベクトルの向きが反対のとき（$ \theta=180\text{\textdegree} $）。
+		
+		ベクトルの向きが反対というのは、ベクトルの符号が異なるという意味なので、
+		\begin{equation*}
+			\boldsymbol{a} = -k \boldsymbol{b}\quad \text{（$ k $：正の定数）}
+		\end{equation*}
+		と表せる。
+		今回の表記に合わせれば、
+		\begin{equation*}
+			\begin{bmatrix}
+				\Delta x\\ \Delta y
+			\end{bmatrix} = -\eta \begin{bmatrix}
+				\dfrac{\partial z}{\partial x}\vspace{1em}\\ \dfrac{\partial z}{\partial y}
+			\end{bmatrix}\quad \text{（$ \eta $：正の定数）}
+		\end{equation*}
+		と導かれる。\qed
+	\end{frame}
+	\begin{frame}{結局どういうこと？？}
+		（勾配降下法の基本式の図的なイメージをここに載せる）
+	\end{frame}
 
 	\begin{frame}{【参考】ギリシャ文字一覧}
 		\begin{table}[]
