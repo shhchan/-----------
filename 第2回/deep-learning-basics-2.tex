@@ -92,19 +92,23 @@
 	\begin{frame}{斜面を転がるボール（多変数関数 ver.）}
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.7\linewidth]{img/change-in-value-of-a-multivariable-function}
+			\includegraphics[width=0.6\linewidth]{img/change-in-value-of-a-multivariable-function}
 		\end{figure}
 		\begin{itemize}
 			\item 最速で転がる（$ \Delta z $が最小になる）には$ \Delta x,\ \Delta y $をどう決める？
 		\end{itemize}
 	\end{frame}
-	\begin{frame}{勾配降下法の基本式}
+	\subsection{勾配降下法の式}
+	\begin{frame}{【重要】勾配降下法の基本式（2変数関数）}
 		\begin{screen}
-			$ \begin{bmatrix}
-				\Delta x\\ \Delta y
-			\end{bmatrix} = -\eta \begin{bmatrix}
-				\dfrac{\partial z}{\partial x}\vspace{1em}\\ \dfrac{\partial z}{\partial y}
-			\end{bmatrix} $（$ \eta $：正の小さな定数）
+			$ \eta $を正の小さな定数として、変数$ x,\ y $が$ x + \Delta x,\ y + \Delta y $に変化するとき、関数$ z = f(x, y) $が最も減少するのは次の関係を満たすときである：
+			\begin{equation*}
+				\begin{bmatrix}
+					\Delta x\\ \Delta y
+				\end{bmatrix} = -\eta \begin{bmatrix}
+					\dfrac{\partial z}{\partial x}\vspace{1em}\\ \dfrac{\partial z}{\partial y}
+				\end{bmatrix}.
+			\end{equation*}
 		\end{screen}
 	\end{frame}
 	\begin{frame}[allowframebreaks]{勾配降下法の基本式の導出}
@@ -120,7 +124,7 @@
 		\end{equation*}
 		「\alert{ベクトルの基本公式}」（第１回）の内積の式
 		\begin{equation*}
-			\left\langle \boldsymbol{a},\ \boldsymbol{b} \right\rangle \triangleq \|\boldsymbol{a}\| \|\boldsymbol{b}\| \cos \theta
+			\left\langle \boldsymbol{a}, \boldsymbol{b} \right\rangle \triangleq \|\boldsymbol{a}\| \|\boldsymbol{b}\| \cos \theta
 		\end{equation*}
 		および、コーシー・シュワルツの不等式
 		\begin{equation*}
@@ -144,9 +148,78 @@
 		と導かれる。\qed
 	\end{frame}
 	\begin{frame}{結局どういうこと？？}
-		（勾配降下法の基本式の図的なイメージをここに載せる）
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{img/visualization-of-the-basic-equation-of-the-gradient-descent-method}
+		\end{figure}
+		\underline{ポイント}　$ \Delta x,\ \Delta y $の値を、偏微分の値で決定できる！
+	\end{frame}
+	\begin{frame}{【重要】勾配降下法の基本式（$ n $変数）}
+		\begin{screen}
+			$ \eta $を正の小さな定数として、変数$ x_1,\ x_2,\ \dots,\ x_n $が$ x_1 + \Delta x_1,\ x_2 + \Delta x_2,\ \dots,\ x_n + \Delta x_n $に変化するとき、関数$ f $が最も減少するのは次の関係を満たすときである：
+			\begin{equation*}
+				\begin{bmatrix}
+					\Delta x_1\\
+					\vdots\\
+					\Delta x_n
+				\end{bmatrix} = -\eta \begin{bmatrix}
+					\dfrac{\partial f}{\partial x_1}\\
+					\vdots\\
+					\dfrac{\partial f}{\partial x_n}
+				\end{bmatrix}.
+			\end{equation*}
+		\end{screen}
+		この式に従って点$ (x_1,\ \dots,\ x_n) $を次々と移動させることで、関数$ f $が最小になるパラメータを探索する方法を\alert{勾配降下法}という。
 	\end{frame}
 
+	\section{ニューラルネットワークと勾配降下法}
+	\subsection{ニューラルネットワークのパラメータと変数}
+	\begin{frame}{ユニットの復習}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{img/summary-of-unit}
+		\end{figure}
+		重み付き入力：$ z = w_1x_1 + w_2x_2 \cdots + w_nx_n + b $
+		
+		出力：$ y = \sigma(z) $
+	\end{frame}
+	\begin{frame}{層に番号付けする}
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{img/name-of-the-layers-of-a-hierarchical-neural-network}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{変数名・パラメータ名}
+		\begin{itemize}
+			\item $ x_i $
+				\begin{itemize}
+					\item 入力層（層1）にある$ i $番目のユニットの入力を表す変数。入力層では、出力と入力は同一値なので、出力の変数にもなる。また、該当するユニットの名称としても利用。
+				\end{itemize}
+			\item $ w^l_{ji} $
+				\begin{itemize}
+					\item 層$ l-1 $の$ i $番目のユニットから層$ l $の$ j $番目のユニットに向けられた矢の重み。$ i $と$ j $の順序に注意。ニューラルネットワークを定めるパラメータ。
+				\end{itemize}
+			\item $ z^l_j $
+				\begin{itemize}
+					\item 層$ l $の$ j $番目にあるユニットが処理する重み付き入力を表す変数。
+				\end{itemize}
+			\item $ b^l_j $
+				\begin{itemize}
+					\item 層$ l $の$ j $番目にあるユニットのバイアス。ニューラルネットワークを定めるパラメータ。
+				\end{itemize}
+			\item $ a^l_j $
+				\begin{itemize}
+					\item 層$ l $の$ j $番目にあるユニットの出力変数。また、そのユニットの名称としても利用。
+				\end{itemize}
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{変数名・パラメータの図解}
+		（図で示す）
+	\end{frame}
+	
+	
 	\begin{frame}{【参考】ギリシャ文字一覧}
 		\begin{table}[]
 			\begin{tabular}{ll|ll}
