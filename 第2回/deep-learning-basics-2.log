@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  24 JUN 2024 08:36
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  25 JUN 2024 01:15
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1103,11 +1103,7 @@ File: img/image-of-a-ball-rolling-down-a-slope.png Graphic file (type bmp)
 File: img/change-in-value-of-a-multivariable-function.png Graphic file (type bm
 p)
 <img/change-in-value-of-a-multivariable-function.png>
-
-Overfull \vbox (10.33572pt too high) detected at line 100
- []
-
-[12
+ [12
 
 ] [13
 
@@ -1115,14 +1111,58 @@ Overfull \vbox (10.33572pt too high) detected at line 100
 
 ] [15
 
-
 ] [16
 
+
 ]
-Overfull \vbox (32.31407pt too high) detected at line 171
+File: img/visualization-of-the-basic-equation-of-the-gradient-descent-method.pn
+g Graphic file (type bmp)
+<img/visualization-of-the-basic-equation-of-the-gradient-descent-method.png>
+
+Overfull \vbox (1.9414pt too high) detected at line 157
  []
 
 [17
+
+] [18
+
+] [19
+
+] [20
+
+]
+File: img/summary-of-unit.png Graphic file (type bmp)
+<img/summary-of-unit.png>
+ [21
+
+]
+File: img/name-of-the-layers-of-a-hierarchical-neural-network.png Graphic file 
+(type bmp)
+<img/name-of-the-layers-of-a-hierarchical-neural-network.png>
+
+Overfull \vbox (17.56575pt too high) detected at line 193
+ []
+
+[22
+
+]
+Overfull \vbox (3.61932pt too high) detected at line 217
+ []
+
+[23
+
+] [24
+
+]
+Overfull \vbox (32.31407pt too high) detected at line 244
+ []
+
+
+Overfull \hbox (25.2921pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[25
 
 ]
 \tf@nav=\write7
@@ -1137,15 +1177,15 @@ Overfull \vbox (32.31407pt too high) detected at line 171
  (./deep-learning-basics-2.aux)
 Package rerunfilecheck Info: File `deep-learning-basics-2.out' has not changed.
 
-(rerunfilecheck)             Checksum: C96484E8877779EF84C89E9F570ED4B9;230.
+(rerunfilecheck)             Checksum: BD9768D4CB6E4F08F01390078A01AA5C;497.
  ) 
 Here is how much of TeX's memory you used:
- 25697 strings out of 480553
- 498098 string characters out of 5904004
- 780888 words of memory out of 5000000
- 43084 multiletter control sequences out of 15000+600000
- 452979 words of font info for 102 fonts, out of 8000000 for 9000
+ 25806 strings out of 480553
+ 501843 string characters out of 5904004
+ 782199 words of memory out of 5000000
+ 43187 multiletter control sequences out of 15000+600000
+ 455919 words of font info for 114 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-2.dvi (17 pages, 58664 bytes).
+Output written on deep-learning-basics-2.dvi (25 pages, 87812 bytes).

@@ -2,3 +2,6 @@
 \BOOKMARK [2][]{Outline0.1}{はじめに}{}% 1
 \BOOKMARK [2][]{Outline0.2}{勾配降下法}{}% 2
 \BOOKMARK [3][]{Outline0.2.1.6}{勾配降下法の基本概念}{Outline0.2}% 3
+\BOOKMARK [3][]{Outline0.2.2.13}{勾配降下法の式}{Outline0.2}% 4
+\BOOKMARK [2][]{Outline0.3}{ニューラルネットワークと勾配降下法}{}% 5
+\BOOKMARK [3][]{Outline0.3.1.20}{ニューラルネットワークのパラメータと変数}{Outline0.3}% 6
