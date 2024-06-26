@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  25 JUN 2024 01:15
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  25 JUN 2024 23:33
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1059,7 +1059,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-49.
+52.
 
 (d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1074,7 +1074,7 @@ File: img/gradient-descent-method-the-point-at-which-the-function-is-minimized.
 png Graphic file (type bmp)
 <img/gradient-descent-method-the-point-at-which-the-function-is-minimized.png>
 
-Overfull \vbox (3.69012pt too high) detected at line 63
+Overfull \vbox (3.69012pt too high) detected at line 66
  []
 
 [7
@@ -1089,7 +1089,7 @@ function.png Graphic file (type bmp)
 <img/image-of-the-parameters-that-take-the-minimum-value-of-multivariable-funct
 ion.png>
 
-Overfull \vbox (24.52057pt too high) detected at line 85
+Overfull \vbox (24.52057pt too high) detected at line 88
  []
 
 [10
@@ -1119,7 +1119,7 @@ File: img/visualization-of-the-basic-equation-of-the-gradient-descent-method.pn
 g Graphic file (type bmp)
 <img/visualization-of-the-basic-equation-of-the-gradient-descent-method.png>
 
-Overfull \vbox (1.9414pt too high) detected at line 157
+Overfull \vbox (1.9414pt too high) detected at line 160
  []
 
 [17
@@ -1140,29 +1140,46 @@ File: img/name-of-the-layers-of-a-hierarchical-neural-network.png Graphic file
 (type bmp)
 <img/name-of-the-layers-of-a-hierarchical-neural-network.png>
 
-Overfull \vbox (17.56575pt too high) detected at line 193
+Overfull \vbox (17.56575pt too high) detected at line 196
  []
 
 [22
 
 ]
-Overfull \vbox (3.61932pt too high) detected at line 217
+Overfull \vbox (3.61932pt too high) detected at line 220
  []
 
 [23
 
-] [24
+]
+File: img/illustration-of-variable-and-parameter-names.png Graphic file (type b
+mp)
+<img/illustration-of-variable-and-parameter-names.png>
+
+Overfull \vbox (11.34883pt too high) detected at line 227
+ []
+
+[24
+
+] [25
+
+] [26
+
+] [27
+
+
+] [28
+
+] [29
+
+
+] [30
 
 ]
-Overfull \vbox (32.31407pt too high) detected at line 244
+Overfull \vbox (32.31407pt too high) detected at line 341
  []
 
-
-Overfull \hbox (25.2921pt too wide) has occurred while \output is active
-[][]  
- []
-
-[25
+[31
 
 ]
 \tf@nav=\write7
@@ -1175,17 +1192,22 @@ Overfull \hbox (25.2921pt too wide) has occurred while \output is active
 \openout9 = `deep-learning-basics-2.snm'.
 
  (./deep-learning-basics-2.aux)
-Package rerunfilecheck Info: File `deep-learning-basics-2.out' has not changed.
 
-(rerunfilecheck)             Checksum: BD9768D4CB6E4F08F01390078A01AA5C;497.
+Package rerunfilecheck Warning: File `deep-learning-basics-2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `deep-learning-basics-2.out':
+(rerunfilecheck)             Before: 9347CD4D694B562F8E79A73CE46D0533;598
+(rerunfilecheck)             After:  D1B2F10632EA5B74252BFE66BB6A38AA;598.
  ) 
 Here is how much of TeX's memory you used:
- 25806 strings out of 480553
- 501843 string characters out of 5904004
- 782199 words of memory out of 5000000
- 43187 multiletter control sequences out of 15000+600000
+ 25839 strings out of 480553
+ 502836 string characters out of 5904004
+ 786443 words of memory out of 5000000
+ 43219 multiletter control sequences out of 15000+600000
  455919 words of font info for 114 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-2.dvi (25 pages, 87812 bytes).
+Output written on deep-learning-basics-2.dvi (31 pages, 112896 bytes).

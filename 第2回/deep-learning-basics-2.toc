@@ -4,3 +4,4 @@
 \beamer@subsectionintoc {2}{2}{勾配降下法の式}{13}{0}{2}
 \beamer@sectionintoc {3}{ニューラルネットワークと勾配降下法}{19}{0}{3}
 \beamer@subsectionintoc {3}{1}{ニューラルネットワークのパラメータと変数}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{ニューラルネットワークのコスト関数}{30}{0}{3}
