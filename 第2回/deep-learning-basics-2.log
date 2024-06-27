@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  28 JUN 2024 01:00
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  28 JUN 2024 08:33
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1198,17 +1198,17 @@ Overfull \vbox (7.49449pt too high) detected at line 376
 ] [36
 
 ]
-File: img/illustration-of-variable-and-parameter-names.png Graphic file (type b
-mp)
-<img/illustration-of-variable-and-parameter-names.png>
+File: img/relationships-between-varialbes-when-using-the-chain-rule.png Graphic
+ file (type bmp)
+<img/relationships-between-varialbes-when-using-the-chain-rule.png>
 
-Overfull \vbox (22.55556pt too high) detected at line 385
+Overfull \vbox (12.07733pt too high) detected at line 387
  []
 
 [37
 
 ]
-Overfull \hbox (8.90964pt too wide) detected at line 405
+Overfull \hbox (8.90964pt too wide) detected at line 417
 []
  []
 
@@ -1217,15 +1217,8 @@ Overfull \hbox (8.90964pt too wide) detected at line 405
 ] [39
 
 
-]
-File: img/relationships-between-varialbes-when-using-the-chain-rule.png Graphic
- file (type bmp)
-<img/relationships-between-varialbes-when-using-the-chain-rule.png>
+] [40
 
-Overfull \vbox (4.95337pt too high) detected at line 412
- []
-
-[40
 
 ]
 File: img/positioning-of-the-error-back-propagation-method.png Graphic file (ty
@@ -1235,11 +1228,11 @@ pe bmp)
 
 ]
 LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
-(Font)              No change on input line 431.
+(Font)              No change on input line 436.
  [42
 
 ]
-Overfull \vbox (32.31407pt too high) detected at line 454
+Overfull \vbox (32.31407pt too high) detected at line 459
  []
 
 [43
@@ -1260,12 +1253,12 @@ Package rerunfilecheck Info: File `deep-learning-basics-2.out' has not changed.
 (rerunfilecheck)             Checksum: E3C0F5C85DACCE31BC19FB23F34B10CB;684.
  ) 
 Here is how much of TeX's memory you used:
- 25926 strings out of 480553
- 506376 string characters out of 5904004
- 793783 words of memory out of 5000000
- 43301 multiletter control sequences out of 15000+600000
+ 25928 strings out of 480553
+ 506394 string characters out of 5904004
+ 793808 words of memory out of 5000000
+ 43303 multiletter control sequences out of 15000+600000
  456275 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-2.dvi (43 pages, 161092 bytes).
+Output written on deep-learning-basics-2.dvi (43 pages, 161448 bytes).
