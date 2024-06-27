@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  25 JUN 2024 23:33
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  28 JUN 2024 01:00
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1140,7 +1140,7 @@ File: img/name-of-the-layers-of-a-hierarchical-neural-network.png Graphic file
 (type bmp)
 <img/name-of-the-layers-of-a-hierarchical-neural-network.png>
 
-Overfull \vbox (17.56575pt too high) detected at line 196
+Overfull \vbox (17.43451pt too high) detected at line 196
  []
 
 [22
@@ -1156,7 +1156,7 @@ File: img/illustration-of-variable-and-parameter-names.png Graphic file (type b
 mp)
 <img/illustration-of-variable-and-parameter-names.png>
 
-Overfull \vbox (11.34883pt too high) detected at line 227
+Overfull \vbox (12.33304pt too high) detected at line 227
  []
 
 [24
@@ -1176,10 +1176,73 @@ Overfull \vbox (11.34883pt too high) detected at line 227
 ] [30
 
 ]
-Overfull \vbox (32.31407pt too high) detected at line 341
+File: img/illustration-of-squared-error.png Graphic file (type bmp)
+<img/illustration-of-squared-error.png>
+ [31
+
+]
+File: img/illustration-of-the-cost-function.png Graphic file (type bmp)
+<img/illustration-of-the-cost-function.png>
+ [32
+
+] [33
+
+] [34
+
+]
+Overfull \vbox (7.49449pt too high) detected at line 376
  []
 
-[31
+[35
+
+] [36
+
+]
+File: img/illustration-of-variable-and-parameter-names.png Graphic file (type b
+mp)
+<img/illustration-of-variable-and-parameter-names.png>
+
+Overfull \vbox (22.55556pt too high) detected at line 385
+ []
+
+[37
+
+]
+Overfull \hbox (8.90964pt too wide) detected at line 405
+[]
+ []
+
+[38
+
+] [39
+
+
+]
+File: img/relationships-between-varialbes-when-using-the-chain-rule.png Graphic
+ file (type bmp)
+<img/relationships-between-varialbes-when-using-the-chain-rule.png>
+
+Overfull \vbox (4.95337pt too high) detected at line 412
+ []
+
+[40
+
+]
+File: img/positioning-of-the-error-back-propagation-method.png Graphic file (ty
+pe bmp)
+<img/positioning-of-the-error-back-propagation-method.png>
+ [41
+
+]
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 431.
+ [42
+
+]
+Overfull \vbox (32.31407pt too high) detected at line 454
+ []
+
+[43
 
 ]
 \tf@nav=\write7
@@ -1192,22 +1255,17 @@ Overfull \vbox (32.31407pt too high) detected at line 341
 \openout9 = `deep-learning-basics-2.snm'.
 
  (./deep-learning-basics-2.aux)
+Package rerunfilecheck Info: File `deep-learning-basics-2.out' has not changed.
 
-Package rerunfilecheck Warning: File `deep-learning-basics-2.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `deep-learning-basics-2.out':
-(rerunfilecheck)             Before: 9347CD4D694B562F8E79A73CE46D0533;598
-(rerunfilecheck)             After:  D1B2F10632EA5B74252BFE66BB6A38AA;598.
+(rerunfilecheck)             Checksum: E3C0F5C85DACCE31BC19FB23F34B10CB;684.
  ) 
 Here is how much of TeX's memory you used:
- 25839 strings out of 480553
- 502836 string characters out of 5904004
- 786443 words of memory out of 5000000
- 43219 multiletter control sequences out of 15000+600000
- 455919 words of font info for 114 fonts, out of 8000000 for 9000
+ 25926 strings out of 480553
+ 506376 string characters out of 5904004
+ 793783 words of memory out of 5000000
+ 43301 multiletter control sequences out of 15000+600000
+ 456275 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-2.dvi (31 pages, 112896 bytes).
+Output written on deep-learning-basics-2.dvi (43 pages, 161092 bytes).
