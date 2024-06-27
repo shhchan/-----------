@@ -160,8 +160,8 @@
 	\end{frame}
 	\begin{frame}{【重要】勾配降下法の基本式（$ n $変数）}
 		\begin{screen}
-			$ \eta $を正の小さな定数として、変数$ x_1,\ x_2,\ \dots,\ x_n $が$ x_1 + \Delta x_1,\ x_2 + \Delta x_2,\ \dots,\ x_n + \Delta x_n $に変化するとき、関数$ f $が最も減少するのは次の関係を満たすときである：
-			\begin{equation*}
+			$ \eta $を正の小さな定数として、変数$ x_1,\ x_2,\ \dots,\ x_n $が$ x_1 + \Delta x_1,\ x_2 + \Delta x_2,\ \dots,\ x_n + \Delta x_n $に変化するとき、多変数関数$ f $が最も減少するのは次の関係を満たすときである：
+			\begin{equation}\label{eq:basic-equation-of-the-gradient-descent-method}
 				\begin{bmatrix}
 					\Delta x_1\\
 					\vdots\\
@@ -171,7 +171,7 @@
 					\vdots\\
 					\dfrac{\partial f}{\partial x_n}
 				\end{bmatrix}.
-			\end{equation*}
+			\end{equation}
 		\end{screen}
 		この式に従って点$ (x_1,\ \dots,\ x_n) $を次々と移動させることで、関数$ f $が最小になるパラメータを探索する方法を\alert{勾配降下法}という。
 	\end{frame}
@@ -226,7 +226,7 @@
 		\end{figure}
 	\end{frame}
 	\begin{frame}[allowframebreaks]{ニューラルネットワークの変数の関係式：入力層}
-		※必要な時に見返してください。\vspace{4em}
+		※必要な時に見返してください\vspace{4em}
 		
 		入力層の$ i $番目のユニットの入力$ x_i $と出力$ a^1_i $は同一値になる。
 		\begin{screen}
@@ -234,7 +234,7 @@
 		\end{screen}
 	\end{frame}
 	\begin{frame}[allowframebreaks]{ニューラルネットワークの変数の関係式：中間層}
-		※必要な時に見返してください。\vspace{1em}
+		※必要な時に見返してください\vspace{1em}
 		
 		$ a(\cdot) $を活性化関数とする。
 		\begin{screen}
@@ -275,7 +275,7 @@
 		
 \end{frame}
 	\begin{frame}[allowframebreaks]{ニューラルネットワークの変数の関係式：出力層}
-		※必要な時に見返してください。\vspace{4em}
+		※必要な時に見返してください\vspace{4em}
 		
 		$ a(\cdot) $を活性化関数とする。
 		\begin{screen}
@@ -316,6 +316,119 @@
 	\end{frame}
 	
 	\subsection{ニューラルネットワークのコスト関数}
+	\begin{frame}{コスト関数とは}
+		出力データと正解データとの2乗誤差の合計を表す関数
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.75\linewidth]{img/illustration-of-squared-error}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{コスト関数とは}
+		出力と正解データとの2乗誤差の合計を表す関数
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.75\linewidth]{img/illustration-of-the-cost-function}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{コスト関数は重みとバイアスの多変数関数}
+		\begin{itemize}
+			\item コスト関数：$C_\mathrm{T} = \displaystyle\sum_{k=1}^{64} C_k $
+			\item 2乗誤差：$ C_k = \dfrac{1}{2}\left\{(t_1[k] - a^3_1[k])^2 + (t_2[k] - a^3_2[k])^2\right\} $
+			\item 出力層のユニットの出力$ a^3_j[k] $：入力層のユニットから始まり、ニューラルネットワークを通して重みとバイアスで処理されたもの
+		\end{itemize}
+		\underline{つまり、コスト関数は\alert{大量の重み}と\alert{大量のバイアス}をパラメータとする\alert{多変数関数}！}
+	\end{frame}
+	\begin{frame}{ディープラーニングの仕組みは、、、}
+		\begin{itemize}
+			\item 出力データと正解データを比べて、そのズレがなくなるようにアップデートすることを繰り返す
+			\item コスト関数という多変数関数$ C_\mathrm{T} = f(w^2_{11}, \dots,\ w^3_{11},\dots,\ b^2_1,\dots,\ b^3_1,\dots) $の最小化
+			\begin{itemize}
+				\item 最小化には式\eqref{eq:basic-equation-of-the-gradient-descent-method}で勾配降下法を適用すればよい
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{勾配降下法をニューラルネットワークに適用}
+		$ \begin{bmatrix}
+			\Delta w^2_{11}\\ \vdots\\
+			\Delta w^3_{11}\\ \vdots\\
+			\Delta b^2_1\\ \vdots\\
+			\Delta b^3_1\\ \vdots
+		\end{bmatrix} = -\eta \begin{bmatrix}
+			\dfrac{\partial C_\mathrm{T}}{\partial w^2_{11}}\\ \vdots\\
+			\dfrac{\partial C_\mathrm{T}}{\partial w^3_{11}}\\ \vdots\\
+			\dfrac{\partial C_\mathrm{T}}{\partial b^2_1}\\ \vdots\\
+			\dfrac{\partial C_\mathrm{T}}{\partial b^3_1}\\ \vdots\\
+		\end{bmatrix} $を用いて、$ \begin{bmatrix}
+			w^2_{11}\\ \vdots\\
+			w^3_{11}\\ \vdots\\
+			b^2_1\\ \vdots\\
+			b^3_1\\ \vdots
+		\end{bmatrix} $を$ \begin{bmatrix}
+			w^2_{11} + \Delta w^2_{11}\\ \vdots\\
+			w^3_{11} + \Delta w^3_{11}\\ \vdots\\
+			b^2_1 + \Delta b^2_1\\ \vdots\\
+			b^3_1 + \Delta b^3_1\\ \vdots
+		\end{bmatrix} $へ更新を繰り返す。
+	
+		※正の小さな定数$ \eta $を\alert{学習係数}といい、モデル作成者が自由に設定する。
+	\end{frame}
+	
+	\subsection{今回の勾配降下法の問題点}
+	\begin{frame}{実際に計算するのは大変}
+		試しに$ \dfrac{\partial C_\mathrm{T}}{\partial w^2_{11}} $を計算してみよう！
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{img/illustration-of-variable-and-parameter-names}
+		\end{figure}
+	\end{frame}
+	\begin{frame}[allowframebreaks]{実際に計算してみる}
+		$ C_\mathrm{T} = \displaystyle\sum_{k=1}^{64} C_k $なので、まずは$ \dfrac{\partial C_k}{\partial w^2_{11}} $を計算する。
+		
+		\begin{align*}
+			\dfrac{\partial C_k}{\partial w^2_{11}} 
+				&= \dfrac{\partial C_k}{\partial a^3_1[k]}\dfrac{\partial a^3_1[k]}{\partial z^3_1[k]}\dfrac{\partial z^3_1[k]}{\partial a^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial z^2_1[k]}\dfrac{\partial z^2_1[k]}{\partial w^2_{11}}+\dfrac{\partial C_k}{\partial a^3_2[k]}\dfrac{\partial a^3_2[k]}{\partial z^3_2[k]}\dfrac{\partial z^3_2[k]}{\partial a^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial z^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial w^2_{11}}.
+		\end{align*}
+		
+		よって、
+		\begin{align*}
+			\dfrac{\partial C_\mathrm{T}}{\partial w^2_{11}} 
+				&= \sum_{k=1}^{64} \dfrac{\partial C_k}{\partial w^2_{11}}\\
+				&= \sum_{k=1}^{64}\left\{ \dfrac{\partial C_k}{\partial a^3_1[k]}\dfrac{\partial a^3_1[k]}{\partial z^3_1[k]}\dfrac{\partial z^3_1[k]}{\partial a^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial z^2_1[k]}\dfrac{\partial z^2_1[k]}{\partial w^2_{11}} + \dfrac{\partial C_k}{\partial a^3_2[k]}\dfrac{\partial a^3_2[k]}{\partial z^3_2[k]}\dfrac{\partial z^3_2[k]}{\partial a^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial z^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial w^2_{11}} \right\}.
+		\end{align*}
+	
+		あとは、「ニューラルネットワークの変数の関係式」のスライドの式を見て実際に計算すれば（かなり面倒だが）計算できる。\qed
+		\vspace{3em}
+		
+		\underline{ポイント}　勾配降下法をそのまま適用すると、煩雑な微分地獄になる		
+	\end{frame}
+	\begin{frame}{連鎖律を利用する際の変数の関係}
+		$ w^2_{11} $で偏微分するので、通り道すべてで偏微分するイメージ
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.85\linewidth]{img/relationships-between-varialbes-when-using-the-chain-rule}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{まとめ}
+		\begin{itemize}
+			\item 多変数関数の最小値を探す問題には勾配降下法が有効
+			\item 一方で、ニューラルネットワークの世界では、変数・パラメータと関数が複雑に絡み合い、勾配降下法を\underline{そのままでは}利用できない
+		\end{itemize}
+		\begin{center}
+			この状況を打開するのが\alert{誤差逆伝播法}
+		\end{center}
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.9\linewidth]{img/positioning-of-the-error-back-propagation-method}
+		\end{figure}
+	\end{frame}	
+	\begin{frame}
+		\begin{center}
+			\textit{\uline{To Be Continued...}}
+		\end{center}
+	\end{frame}
 	
 	\begin{frame}{【参考】ギリシャ文字一覧}
 		\begin{table}[]
