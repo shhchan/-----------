@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  29 JUN 2024 11:01
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  29 JUN 2024 13:06
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1228,7 +1228,14 @@ File: img/example-of-matrix.png Graphic file (type bmp)
 ]
 [38
 
-] [39
+]
+File: img/product-of-matrices.png Graphic file (type bmp)
+<img/product-of-matrices.png>
+
+Overfull \vbox (11.59909pt too high) detected at line 405
+ []
+
+[39
 
 ] [40
 
@@ -1251,7 +1258,7 @@ File: img/meening-of-derivative.png Graphic file (type bmp)
 File: img/condition-for-minimum-value-of-function.png Graphic file (type bmp)
 <img/condition-for-minimum-value-of-function.png>
 
-Overfull \vbox (25.86974pt too high) detected at line 476
+Overfull \vbox (25.86974pt too high) detected at line 483
  []
 
 [47
@@ -1261,7 +1268,7 @@ File: img/necessary-condition-for-the-function-to-be-minimal.png Graphic file (
 type bmp)
 <img/necessary-condition-for-the-function-to-be-minimal.png>
 
-Overfull \vbox (5.58005pt too high) detected at line 486
+Overfull \vbox (5.58005pt too high) detected at line 493
  []
 
 [48
@@ -1277,7 +1284,12 @@ File: img/explanation-of-mutivariate-function.png Graphic file (type bmp)
 
 ] [52
 
-] [53
+]
+
+Class beamer Warning: Frame text is shrunk by a factor of 12.88605 percent inst
+ead of 0 percent on input line 560.
+
+[53
 
 ] [54
 
@@ -1290,7 +1302,7 @@ File: img/composite-function.png Graphic file (type bmp)
 File: img/chain-rule-at-1-variable.png Graphic file (type bmp)
 <img/chain-rule-at-1-variable.png>
 
-Overfull \vbox (14.69879pt too high) detected at line 573
+Overfull \vbox (14.69879pt too high) detected at line 584
  []
 
 [56
@@ -1320,12 +1332,12 @@ Package rerunfilecheck Info: File `deep-learning-basics-1.out' has not changed.
 (rerunfilecheck)             Checksum: 5F2195BD44C798102EC53B833CAE61C8;802.
  ) 
 Here is how much of TeX's memory you used:
- 26223 strings out of 480553
- 513010 string characters out of 5904004
+ 26238 strings out of 480553
+ 513484 string characters out of 5904004
  782256 words of memory out of 5000000
- 43581 multiletter control sequences out of 15000+600000
+ 43595 multiletter control sequences out of 15000+600000
  457843 words of font info for 122 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,16n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-1.dvi (59 pages, 222612 bytes).
+Output written on deep-learning-basics-1.dvi (59 pages, 223496 bytes).
