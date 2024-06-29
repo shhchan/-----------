@@ -392,9 +392,16 @@
 			p&q\\
 			r&s
 		\end{bmatrix} = \begin{bmatrix}
-			ap+bq & aq+bs\\
+			ap+br & aq+bs\\
 			cp+dr & cq+ds
 		\end{bmatrix} $
+	
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.5\linewidth]{img/product-of-matrices}
+		\end{figure}
+		
 	\end{frame}
 	\begin{frame}{行列とベクトルの演算}
 		$ \begin{bmatrix}
@@ -518,7 +525,7 @@
 	\end{frame}
 	
 	\subsubsection{関数の近似公式}
-	\begin{frame}{【重要】関数の近似公式}
+	\begin{frame}{関数の近似公式}
 		1変数関数の場合
 		\begin{screen}
 			$ f(x+\Delta x) \simeq f(x) + f'(x)\Delta x $
@@ -529,7 +536,7 @@
 		\end{screen}
 		※$ \Delta x $や$ \Delta y $は十分小さな数とする。
 	\end{frame}
-	\begin{frame}{関数の近似公式　簡潔 ver.}
+	\begin{frame}[shrink]{【重要】関数の近似公式　簡潔 ver.}
 		\begin{screen}
 			$ \Delta z \triangleq f(x_1+\Delta x_1,\ x_2+\Delta x_2) - f(x_1,\ x_2) $とすると、
 			\begin{equation*}
@@ -546,6 +553,10 @@
 				\Delta z \simeq \left\langle \nabla z,\ \Delta \boldsymbol{x} \right\rangle.
 			\end{equation*}
 		\end{screen}
+		
+		\underline{ポイント}　
+		
+		関数の値の変化$ \Delta z $は、偏微分を集めたベクトル$ \nabla z $と、小さい値を集めたベクトル$ \Delta \boldsymbol{x} $で表される。
 	\end{frame}
 	
 	\subsection{誤差逆伝播法のための数学}
@@ -562,7 +573,7 @@
 		\begin{screen}
 			1変数関数$ y = f(u) $があり、その$ u $が1変数関数$ u = g(x) $と表されるとき、合成関数$ f(g(x)) $の導関数は次のように求められる：
 			\begin{equation*}
-				\dfrac{\mathrm{d}y}{\mathrm{d}x} = \dfrac{\mathrm{d}y}{\mathrm{d}u} \dfrac{\mathrm{d}u}{\mathrm{d}x}
+				\dfrac{\mathrm{d}y}{\mathrm{d}x} = \dfrac{\mathrm{d}y}{\mathrm{d}u} \cdot \dfrac{\mathrm{d}u}{\mathrm{d}x}
 			\end{equation*}
 		\end{screen}
 					% TODO: \usepackage{graphicx} required
@@ -581,7 +592,7 @@
 		\begin{screen}
 			2変数関数$ z = f(u,v) $があり、その$ u,\ v $が2変数関数$ u = g_1(x,y),\ v = g_2(x,y) $と表されるとき、
 			\begin{equation*}
-				\dfrac{\partial z}{\partial x} = \dfrac{\partial z}{\partial u}\dfrac{\partial u}{\partial x} + \dfrac{\partial z}{\partial v}\dfrac{\partial v}{\partial x}
+				\dfrac{\partial z}{\partial x} = \dfrac{\partial z}{\partial u}\cdot\dfrac{\partial u}{\partial x} + \dfrac{\partial z}{\partial v}\cdot\dfrac{\partial v}{\partial x}
 			\end{equation*}
 		\end{screen}
 		% TODO: \usepackage{graphicx} required
@@ -591,9 +602,9 @@
 		\end{figure}
 	\end{frame}
 	\begin{frame}{2変数関数の連鎖律の例}
-		$ C=u^2+v^2,\ u=ax+by,\ v=px+qy $（$ a, b, p, q $：定数）のとき、
+		$ z=u^2+v^2,\ u=ax+by,\ v=px+qy $（$ a, b, p, q $：定数）のとき、
 		\begin{align*}
-			\dfrac{\partial C}{\partial x} = \dfrac{\partial C}{\partial u}\dfrac{\partial u}{\partial x} + \dfrac{\partial C}{\partial v}\dfrac{\partial v}{\partial y} = 2u \cdot a + 2v \cdot p = 2a(ax+by) + 2p(px+qy).
+			\dfrac{\partial z}{\partial x} = \dfrac{\partial z}{\partial u}\dfrac{\partial u}{\partial x} + \dfrac{\partial z}{\partial v}\dfrac{\partial v}{\partial x} = 2u \cdot a + 2v \cdot p = 2a(ax+by) + 2p(px+qy).
 		\end{align*}
 	\end{frame}
 	
