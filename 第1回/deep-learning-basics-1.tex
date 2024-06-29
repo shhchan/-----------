@@ -364,7 +364,51 @@
 			\includegraphics[width=0.4\linewidth]{img/example-of-matrix}
 		\end{figure}
 	\end{frame}
-
+	\begin{frame}{ベクトルも行列の一部}
+		$ \begin{bmatrix}
+			x\\ y\\ z
+		\end{bmatrix} $は3行1列の行列とみなせる
+	\end{frame}
+	\begin{frame}{行列同士の演算}
+		行列の和
+		
+		$ \begin{bmatrix}
+			a&b\\
+			c&d
+		\end{bmatrix} + \begin{bmatrix}
+			p&q\\
+			r&s
+		\end{bmatrix} = \begin{bmatrix}
+			a+p & b+q\\
+			c+r & d+s
+		\end{bmatrix} $
+		
+		行列の積
+		
+		$ \begin{bmatrix}
+			a&b\\
+			c&d
+		\end{bmatrix}\begin{bmatrix}
+			p&q\\
+			r&s
+		\end{bmatrix} = \begin{bmatrix}
+			ap+bq & aq+bs\\
+			cp+dr & cq+ds
+		\end{bmatrix} $
+	\end{frame}
+	\begin{frame}{行列とベクトルの演算}
+		$ \begin{bmatrix}
+			3&1&4\\
+			1&5&9\\
+			2&6&5
+		\end{bmatrix}\begin{bmatrix}
+			x\\y\\z
+		\end{bmatrix} = \begin{bmatrix}
+			3x+1y+4z\\
+			1x+5y+9z\\
+			2x+6y+5z
+		\end{bmatrix} $
+	\end{frame}
 	\subsection{勾配降下法のための数学}
 	\subsubsection{微分}
 	\begin{frame}{微分の定義}
