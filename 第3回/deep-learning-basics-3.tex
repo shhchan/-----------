@@ -48,4 +48,123 @@
 		\end{itemize}
 	\end{frame}
 	
+	\section{勾配降下法の復習}
+	\begin{frame}{勾配降下法のイメージ}
+		\underline{ボールが転がる方向に向かってパラメータ（ここでは$ x $）を更新}
+		
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{img/image-of-a-ball-rolling-down-a-slope}
+		\end{figure}
+		
+	\end{frame}
+	\begin{frame}{ニューラルネットワークのパラメータ}
+		\underline{$ w^2_{11}, \dots, w^3_{11}, \dots, b^2_1, \dots, b^3_1, \dots $がパラメータ}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.8\linewidth]{img/illustration-of-variable-and-parameter-names}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{ニューラルネットワークへの勾配降下法の適用}
+		$ \begin{bmatrix}
+			\Delta w^2_{11}\\ \vdots\\
+			\Delta w^3_{11}\\ \vdots\\
+			\Delta b^2_1\\ \vdots\\
+			\Delta b^3_1\\ \vdots
+		\end{bmatrix} = -\eta \begin{bmatrix}
+			\dfrac{\partial C_\mathrm{T}}{\partial w^2_{11}}\\ \vdots\\
+			\dfrac{\partial C_\mathrm{T}}{\partial w^3_{11}}\\ \vdots\\
+			\dfrac{\partial C_\mathrm{T}}{\partial b^2_1}\\ \vdots\\
+			\dfrac{\partial C_\mathrm{T}}{\partial b^3_1}\\ \vdots\\
+		\end{bmatrix} $を用いて、$ \begin{bmatrix}
+			w^2_{11}\\ \vdots\\
+			w^3_{11}\\ \vdots\\
+			b^2_1\\ \vdots\\
+			b^3_1\\ \vdots
+		\end{bmatrix} $を$ \begin{bmatrix}
+			w^2_{11} + \Delta w^2_{11}\\ \vdots\\
+			w^3_{11} + \Delta w^3_{11}\\ \vdots\\
+			b^2_1 + \Delta b^2_1\\ \vdots\\
+			b^3_1 + \Delta b^3_1\\ \vdots
+		\end{bmatrix} $へ更新を繰り返す。
+		
+		※正の小さな定数$ \eta $を\alert{学習係数}といい、モデル作成者が自由に設定する。
+	\end{frame}
+	\begin{frame}{勾配降下法の問題点}
+		\underline{微分を実際に計算するのは大変}
+		\begin{align*}
+			\dfrac{\partial C_\mathrm{T}}{\partial w^2_{11}} 
+			&= \sum_{k=1}^{64} \dfrac{\partial C_k}{\partial w^2_{11}}\\
+			&= \sum_{k=1}^{64}\left\{ \dfrac{\partial C_k}{\partial a^3_1[k]}\dfrac{\partial a^3_1[k]}{\partial z^3_1[k]}\dfrac{\partial z^3_1[k]}{\partial a^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial z^2_1[k]}\dfrac{\partial z^2_1[k]}{\partial w^2_{11}} + \dfrac{\partial C_k}{\partial a^3_2[k]}\dfrac{\partial a^3_2[k]}{\partial z^3_2[k]}\dfrac{\partial z^3_2[k]}{\partial a^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial z^2_1[k]}\dfrac{\partial a^2_1[k]}{\partial w^2_{11}} \right\}.
+		\end{align*}
+	\end{frame}
+	\begin{frame}{微分地獄の解決策}
+		\underline{\alert{誤差逆伝播法} の導入}
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.9\linewidth]{img/positioning-of-the-error-back-propagation-method}
+		\end{figure}
+	\end{frame}
+	
+	\section{誤差逆伝播法}
+	\subsection{ユニットの誤差}
+	\begin{frame}{誤差逆伝播法とは？}
+		\underline{特徴}
+		\begin{itemize}
+			\item 煩雑な微分計算を、\alert{数列の漸化式}に置き換える
+			\item \alert{ユニットの誤差}（error）と呼ばれる変数$ \delta^l_j $を用いる
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{ユニットの誤差$ \delta^l_j $の導入}
+		\begin{screen}
+			\alert{ユニットの誤差}$ \delta^l_j $を次のように定義する：
+			\begin{equation}\label{eq:unit-error}
+				\delta^l_j \triangleq \dfrac{\partial C}{\partial z^l_j}
+			\end{equation}
+		\end{screen}
+		なぜこれを導入したか？
+		\begin{itemize}
+			\item 微分の計算から漸化式の計算へ変えることができるから
+		\end{itemize}		
+	\end{frame}
+	\begin{frame}{ユニットの誤差$ \delta^l_j $のイメージ}
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{img/image-of-unit-error}
+		\end{figure}
+	\end{frame}
+	\begin{frame}[shrink]{重み・バイアスに関する2乗誤差の偏微分を$ \delta^l_j $で表現}
+		\begin{center}
+			\underline{2乗誤差の重みやバイアスに関する偏微分は、$ \delta^l_j $と密接な関係で結ばれている}
+		\end{center}
+		
+		\underline{例}　$ \dfrac{\partial C}{\partial w^2_{11}} $を$ \delta^l_j $で表してみる。
+		
+		偏微分の連鎖律より、
+		\begin{equation}\label{eq:calculate-the-partial-derivative-of-the-squared-error-with-respect-to-the-weights-by-the-chain-rule}
+			\dfrac{\partial C}{\partial w^2_{11}} = \dfrac{\partial C}{\partial z^2_1}\dfrac{\partial z^2_1}{\partial w^2_{11}}.
+		\end{equation}
+		$ z^2_1 $は
+		\begin{equation*}
+			z^2_1 = w^2_{11}x_1 + \cdots + w^2_{1,12}x_{12} + b^2_1
+		\end{equation*}
+		と表されるので、
+		\begin{equation}\label{eq:partial-derivative-of-z^2_1}
+			\dfrac{\partial z^2_1}{\partial w^2_{11}} = x_1.
+		\end{equation}
+		式\eqref{eq:calculate-the-partial-derivative-of-the-squared-error-with-respect-to-the-weights-by-the-chain-rule}と式\eqref{eq:partial-derivative-of-z^2_1}より、
+		\begin{equation}\label{eq:denote-C-as-partial-derivative-of-w^2_11-in-unit-error}
+			\dfrac{\partial C}{\partial w^2_{11}} = \delta^2_1 x_1.
+		\end{equation}
+	\end{frame}
+	\begin{frame}{重み・バイアスに関する2乗誤差の偏微分を$ \delta^l_j $で表現（イメージ）}
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.9\linewidth]{img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-weights}
+		\end{figure}
+		
+	\end{frame}
 \end{document}
