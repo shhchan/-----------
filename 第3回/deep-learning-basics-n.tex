@@ -1,0 +1,51 @@
+\documentclass[dvipdfmx,aspectratio=169]{beamer}
+\usepackage{pxjahyper}							%しおりの文字化けを防ぐ
+\renewcommand{\kanjifamilydefault}{\gtdefault}	%日本語フォントをゴシックに
+\usepackage{graphics}							%各種画像の張り込み
+\usepackage{amsmath,amssymb,mathtools}					%標準数式表現を拡大する
+\usepackage{ulem}
+\usepackage{ascmac,fancybox}
+\usetheme[
+	block=fill,
+	progressbar=foot,
+	numbering=fraction,
+	subsectionpage=progressbar
+]{Metropolis}
+\usefonttheme{professionalfonts}
+
+\usepackage{here}
+\usepackage{booktabs}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{color}
+
+\newcommand{\highlight}[2][yellow]{\tikz[baseline=(x.base)]{\node[rectangle,rounded corners,fill=#1!10](x){#2};}}
+\newcommand{\highlightcap}[3][yellow]{\tikz[baseline=(x.base)]{\node[rectangle,rounded corners,fill=#1!10](x){#2} node[below of=x, color=#1]{#3};}}
+
+\title{ディープラーニングの仕組みを知ろう！}
+\subtitle{第$ n $回　人工知能勉強会}
+\author{Shion MORISHITA}
+\institute{}
+\date{\today}
+
+\subject{\LaTeX{}+Beamer}
+\begin{document}
+	%タイトル
+	\begin{frame}[plain]
+	    \maketitle
+	\end{frame}
+		
+	\begin{frame}[shrink]{目次}
+		\vspace{1em}
+		\tableofcontents
+	\end{frame}
+	
+	\section{はじめに}
+	\begin{frame}{目的}
+		\begin{itemize}
+			\item
+		\end{itemize}
+	\end{frame}
+	
+\end{document}
