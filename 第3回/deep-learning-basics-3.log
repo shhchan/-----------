@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  3 JUL 2024 01:23
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  4 JUL 2024 23:20
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1122,23 +1122,40 @@ Overfull \vbox (4.51329pt too high) detected at line 137
 
 [15
 
-]
-
-Class beamer Warning: Frame text is shrunk by a factor of 24.20349 percent inst
-ead of 0 percent on input line 161.
-
-[16
+] [16
 
 ]
 File: img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-
-weights.png Graphic file (type bmp)
-<img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-weigh
-ts.png>
+the-weights.png Graphic file (type bmp)
+<img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-the-w
+eights.png>
 
-Overfull \vbox (22.47906pt too high) detected at line 169
+Overfull \vbox (13.10263pt too high) detected at line 159
  []
 
 [17
+
+] [18
+
+]
+File: img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-
+the-bias.png Graphic file (type bmp)
+<img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-the-b
+ias.png>
+
+Overfull \vbox (19.00705pt too high) detected at line 178
+ []
+
+[19
+
+] [20
+
+]
+Overfull \hbox (28.45274pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[21
 
 ]
 \tf@nav=\write7
@@ -1156,12 +1173,12 @@ Package rerunfilecheck Info: File `deep-learning-basics-3.out' has not changed.
 (rerunfilecheck)             Checksum: 2B6D7B00D13D26853628DB20FA0596DD;284.
  ) 
 Here is how much of TeX's memory you used:
- 25674 strings out of 480553
- 497479 string characters out of 5904004
- 793045 words of memory out of 5000000
- 43071 multiletter control sequences out of 15000+600000
- 450425 words of font info for 94 fonts, out of 8000000 for 9000
+ 25742 strings out of 480553
+ 500150 string characters out of 5904004
+ 793087 words of memory out of 5000000
+ 43135 multiletter control sequences out of 15000+600000
+ 452465 words of font info for 103 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-3.dvi (17 pages, 61892 bytes).
+Output written on deep-learning-basics-3.dvi (21 pages, 75916 bytes).

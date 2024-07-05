@@ -135,36 +135,56 @@
 			\includegraphics[width=0.7\linewidth]{img/image-of-unit-error}
 		\end{figure}
 	\end{frame}
-	\begin{frame}[shrink]{重み・バイアスに関する2乗誤差の偏微分を$ \delta^l_j $で表現}
-		\begin{center}
-			\underline{2乗誤差の重みやバイアスに関する偏微分は、$ \delta^l_j $と密接な関係で結ばれている}
-		\end{center}
-		
-		\underline{例}　$ \dfrac{\partial C}{\partial w^2_{11}} $を$ \delta^l_j $で表してみる。
-		
-		偏微分の連鎖律より、
-		\begin{equation}\label{eq:calculate-the-partial-derivative-of-the-squared-error-with-respect-to-the-weights-by-the-chain-rule}
-			\dfrac{\partial C}{\partial w^2_{11}} = \dfrac{\partial C}{\partial z^2_1}\dfrac{\partial z^2_1}{\partial w^2_{11}}.
-		\end{equation}
-		$ z^2_1 $は
-		\begin{equation*}
-			z^2_1 = w^2_{11}x_1 + \cdots + w^2_{1,12}x_{12} + b^2_1
-		\end{equation*}
-		と表されるので、
-		\begin{equation}\label{eq:partial-derivative-of-z^2_1}
-			\dfrac{\partial z^2_1}{\partial w^2_{11}} = x_1.
-		\end{equation}
-		式\eqref{eq:calculate-the-partial-derivative-of-the-squared-error-with-respect-to-the-weights-by-the-chain-rule}と式\eqref{eq:partial-derivative-of-z^2_1}より、
-		\begin{equation}\label{eq:denote-C-as-partial-derivative-of-w^2_11-in-unit-error}
-			\dfrac{\partial C}{\partial w^2_{11}} = \delta^2_1 x_1.
-		\end{equation}
+	\begin{frame}{重みに関する2乗誤差の偏微分を$ \delta^l_j $で表現}
+		\begin{screen}
+			重みに関する偏微分をユニットの誤差$ \delta^l_j $を用いて次にように表すことができる：
+			\begin{equation}\label{eq:equation-expressing-the-partial-derivative-with-respect-to-the-weights-using-the-unit-error}
+				\dfrac{\partial C}{\partial w^l_{ji}} = \delta^l_j a^{l-1}_i\quad (l \geq 2).
+			\end{equation}
+		\end{screen}
+		\underline{ポイント}
+		\begin{itemize}
+			\item $ \delta^l_j $の値さえ計算できれば、$ \dfrac{\partial C}{\partial w^l_{ji}} $を偏微分の計算なしで求めることができる！
+			\begin{itemize}
+				\item $ a^{l-1}_i $はユニットの出力値なので、普通に計算できる
+			\end{itemize}
+		\end{itemize}
 	\end{frame}
-	\begin{frame}{重み・バイアスに関する2乗誤差の偏微分を$ \delta^l_j $で表現（イメージ）}
+	\begin{frame}{重みに関する2乗誤差の偏微分のイメージ}
 		% TODO: \usepackage{graphicx} required
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.9\linewidth]{img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-weights}
+			\includegraphics[width=0.7\linewidth]{img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-the-weights}
 		\end{figure}
+	\end{frame}
+	\begin{frame}{バイアスに関する2乗誤差の偏微分を$ \delta^l_j $で表現}
+		\begin{screen}
+			バイアスに関する偏微分をユニットの誤差$ \delta^l_j $を用いて次にように表すことができる：
+			\begin{equation}\label{eq:equation-expressing-the-partial-derivative-with-respect-to-the-bias-using-the-unit-error}
+				\dfrac{\partial C}{\partial b^l_j} = \delta^l_j\quad (l \geq 2).
+			\end{equation}
+		\end{screen}
+		ポイント
+		\begin{itemize}
+			\item $ \delta^l_j $の値さえ計算できれば、$ \dfrac{\partial C}{\partial b^l_j} $を偏微分の計算なしで求めることができる！
+		\end{itemize}
+	\end{frame}
+	\begin{frame}{バイアスに関する2乗誤差の偏微分のイメージ}
+		% TODO: \usepackage{graphicx} required
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-the-bias}
+		\end{figure}
+	\end{frame}
+	\begin{frame}{で、$ \delta^l_j $はどう計算するの？}
+		\underline{ここでようやく\alert{漸化式}の考え方が役立つ！}
+		\begin{enumerate}
+			\item 出力層（第$ L $層）のユニットの誤差$ \delta^L_j $を計算する
+			\item $ l $層と$ l+1 $層のユニットの誤差の漸化式を用いて、出力層側のユニットの誤差から入力層側のユニットの誤差を計算する
+		\end{enumerate}
+		つまり、$ \delta^L_j $が計算できれば、$ \delta^{L-1}_j, \delta^{L-2}_j,\dots, \delta^2_j $とすべて計算できることになる
+	\end{frame}
+	\begin{frame}{出力層の$ \delta^L_j $を算出}
 		
 	\end{frame}
 \end{document}
