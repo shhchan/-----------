@@ -180,11 +180,19 @@
 		\underline{ここでようやく\alert{漸化式}の考え方が役立つ！}
 		\begin{enumerate}
 			\item 出力層（第$ L $層）のユニットの誤差$ \delta^L_j $を計算する
-			\item $ l $層と$ l+1 $層のユニットの誤差の漸化式を用いて、出力層側のユニットの誤差から入力層側のユニットの誤差を計算する
+			\item $ l $層と$ l+1 $層のユニットの誤差の「（逆）漸化式」を用いて、出力層側のユニットの誤差から入力層側のユニットの誤差を計算する
 		\end{enumerate}
 		つまり、$ \delta^L_j $が計算できれば、$ \delta^{L-1}_j, \delta^{L-2}_j,\dots, \delta^2_j $とすべて計算できることになる
 	\end{frame}
-	\begin{frame}{出力層の$ \delta^L_j $を算出}
+	\begin{frame}{出力層の$ \delta^L_j $}
+		\begin{screen}
+			出力層のユニットの誤差$ \delta^L_j $は次にように表すことができる：
+			\begin{equation}
+				\delta^L_j = \dfrac{\partial C}{\partial a^L_j}\dfrac{\mathrm{d}a^L_j}{\mathrm{d}z^L_j}
+			\end{equation}
+		\end{screen}
+		
+		
 		
 	\end{frame}
 \end{document}

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  29 JUN 2024 13:06
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  6 JUL 2024 10:01
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1055,7 +1055,7 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
 
 
-Class beamer Warning: Frame text is shrunk by a factor of 43.37616 percent inst
+Class beamer Warning: Frame text is shrunk by a factor of 14.81323 percent inst
 ead of 0 percent on input line 42.
 
 [2
@@ -1237,28 +1237,61 @@ Overfull \vbox (11.59909pt too high) detected at line 405
 
 [39
 
-] [40
+]
+File: img/product-of-matrix-and-vector.png Graphic file (type bmp)
+<img/product-of-matrix-and-vector.png>
+ [40
 
 ] [41
 
-] [42
+]
+Overfull \hbox (14.22636pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[42
 
 ]
 File: img/meening-of-derivative.png Graphic file (type bmp)
 <img/meening-of-derivative.png>
- [43
 
-] [44
+Overfull \hbox (28.45274pt too wide) has occurred while \output is active
+[][]  
+ []
 
-] [45
+[43
 
-] [46
+]
+Overfull \hbox (42.67912pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[44
+
+]
+Overfull \hbox (56.9055pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[45
+
+]
+Overfull \hbox (71.13188pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[46
 
 ]
 File: img/condition-for-minimum-value-of-function.png Graphic file (type bmp)
 <img/condition-for-minimum-value-of-function.png>
 
-Overfull \vbox (25.86974pt too high) detected at line 483
+Overfull \vbox (25.86974pt too high) detected at line 478
+ []
+
+
+Overfull \hbox (85.35826pt too wide) has occurred while \output is active
+[][]  
  []
 
 [47
@@ -1268,7 +1301,12 @@ File: img/necessary-condition-for-the-function-to-be-minimal.png Graphic file (
 type bmp)
 <img/necessary-condition-for-the-function-to-be-minimal.png>
 
-Overfull \vbox (5.58005pt too high) detected at line 493
+Overfull \vbox (5.58005pt too high) detected at line 488
+ []
+
+
+Overfull \hbox (99.58464pt too wide) has occurred while \output is active
+[][]  
  []
 
 [48
@@ -1276,45 +1314,100 @@ Overfull \vbox (5.58005pt too high) detected at line 493
 ]
 File: img/explanation-of-mutivariate-function.png Graphic file (type bmp)
 <img/explanation-of-mutivariate-function.png>
- [49
 
-] [50
+Overfull \hbox (113.81102pt too wide) has occurred while \output is active
+[][]  
+ []
 
-] [51
+[49
 
-] [52
+]
+Overfull \hbox (128.03738pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[50
+
+]
+Overfull \hbox (142.26376pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[51
+
+]
+Overfull \hbox (156.49014pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[52
 
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 12.88605 percent inst
-ead of 0 percent on input line 560.
+ead of 0 percent on input line 555.
+
+
+Overfull \hbox (170.71652pt too wide) has occurred while \output is active
+[][]  
+ []
 
 [53
 
-] [54
+]
+Overfull \hbox (90.33772pt too wide) in paragraph at lines 557--557
+[][][]  
+ []
+
+[54
 
 ]
 File: img/composite-function.png Graphic file (type bmp)
 <img/composite-function.png>
- [55
+
+Overfull \hbox (184.9429pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[55
 
 ]
 File: img/chain-rule-at-1-variable.png Graphic file (type bmp)
 <img/chain-rule-at-1-variable.png>
 
-Overfull \vbox (14.69879pt too high) detected at line 584
+Overfull \vbox (14.69879pt too high) detected at line 579
+ []
+
+
+Overfull \hbox (199.16928pt too wide) has occurred while \output is active
+[][]  
  []
 
 [56
 
-] [57
+]
+Overfull \hbox (213.39566pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[57
 
 ]
 File: img/chain-rule-of-multivariable-functions.png Graphic file (type bmp)
 <img/chain-rule-of-multivariable-functions.png>
- [58
 
-] [59
+Overfull \hbox (227.62204pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[58
+
+]
+Overfull \hbox (241.8484pt too wide) has occurred while \output is active
+[][]  
+ []
+
+[59
 
 ]
 \tf@nav=\write7
@@ -1327,17 +1420,22 @@ File: img/chain-rule-of-multivariable-functions.png Graphic file (type bmp)
 \openout9 = `deep-learning-basics-1.snm'.
 
  (./deep-learning-basics-1.aux)
-Package rerunfilecheck Info: File `deep-learning-basics-1.out' has not changed.
 
-(rerunfilecheck)             Checksum: 5F2195BD44C798102EC53B833CAE61C8;802.
+Package rerunfilecheck Warning: File `deep-learning-basics-1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `deep-learning-basics-1.out':
+(rerunfilecheck)             Before: E143F191F54BEEF2F3585B4100AFB281;632
+(rerunfilecheck)             After:  5F2195BD44C798102EC53B833CAE61C8;802.
  ) 
 Here is how much of TeX's memory you used:
- 26238 strings out of 480553
- 513484 string characters out of 5904004
- 782256 words of memory out of 5000000
- 43595 multiletter control sequences out of 15000+600000
+ 26205 strings out of 480553
+ 513661 string characters out of 5904004
+ 781685 words of memory out of 5000000
+ 43561 multiletter control sequences out of 15000+600000
  457843 words of font info for 122 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,16n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-1.dvi (59 pages, 223496 bytes).
+Output written on deep-learning-basics-1.dvi (59 pages, 221196 bytes).
