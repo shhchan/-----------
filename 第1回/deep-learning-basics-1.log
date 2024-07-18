@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  6 JUL 2024 10:01
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  18 JUL 2024 01:18
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1055,7 +1055,7 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
 
 
-Class beamer Warning: Frame text is shrunk by a factor of 14.81323 percent inst
+Class beamer Warning: Frame text is shrunk by a factor of 43.37616 percent inst
 ead of 0 percent on input line 42.
 
 [2
@@ -1244,54 +1244,24 @@ File: img/product-of-matrix-and-vector.png Graphic file (type bmp)
 
 ] [41
 
-]
-Overfull \hbox (14.22636pt too wide) has occurred while \output is active
-[][]  
- []
-
-[42
+] [42
 
 ]
 File: img/meening-of-derivative.png Graphic file (type bmp)
 <img/meening-of-derivative.png>
+ [43
 
-Overfull \hbox (28.45274pt too wide) has occurred while \output is active
-[][]  
- []
+] [44
 
-[43
+] [45
 
-]
-Overfull \hbox (42.67912pt too wide) has occurred while \output is active
-[][]  
- []
-
-[44
-
-]
-Overfull \hbox (56.9055pt too wide) has occurred while \output is active
-[][]  
- []
-
-[45
-
-]
-Overfull \hbox (71.13188pt too wide) has occurred while \output is active
-[][]  
- []
-
-[46
+] [46
 
 ]
 File: img/condition-for-minimum-value-of-function.png Graphic file (type bmp)
 <img/condition-for-minimum-value-of-function.png>
 
 Overfull \vbox (25.86974pt too high) detected at line 478
- []
-
-
-Overfull \hbox (85.35826pt too wide) has occurred while \output is active
-[][]  
  []
 
 [47
@@ -1304,72 +1274,32 @@ type bmp)
 Overfull \vbox (5.58005pt too high) detected at line 488
  []
 
-
-Overfull \hbox (99.58464pt too wide) has occurred while \output is active
-[][]  
- []
-
 [48
 
 ]
 File: img/explanation-of-mutivariate-function.png Graphic file (type bmp)
 <img/explanation-of-mutivariate-function.png>
+ [49
 
-Overfull \hbox (113.81102pt too wide) has occurred while \output is active
-[][]  
- []
+] [50
 
-[49
+] [51
 
-]
-Overfull \hbox (128.03738pt too wide) has occurred while \output is active
-[][]  
- []
-
-[50
-
-]
-Overfull \hbox (142.26376pt too wide) has occurred while \output is active
-[][]  
- []
-
-[51
-
-]
-Overfull \hbox (156.49014pt too wide) has occurred while \output is active
-[][]  
- []
-
-[52
+] [52
 
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 12.88605 percent inst
 ead of 0 percent on input line 555.
 
-
-Overfull \hbox (170.71652pt too wide) has occurred while \output is active
-[][]  
- []
-
 [53
 
-]
-Overfull \hbox (90.33772pt too wide) in paragraph at lines 557--557
-[][][]  
- []
-
-[54
+] [54
 
 ]
 File: img/composite-function.png Graphic file (type bmp)
 <img/composite-function.png>
-
-Overfull \hbox (184.9429pt too wide) has occurred while \output is active
-[][]  
- []
-
-[55
+ [55
 
 ]
 File: img/chain-rule-at-1-variable.png Graphic file (type bmp)
@@ -1378,36 +1308,16 @@ File: img/chain-rule-at-1-variable.png Graphic file (type bmp)
 Overfull \vbox (14.69879pt too high) detected at line 579
  []
 
-
-Overfull \hbox (199.16928pt too wide) has occurred while \output is active
-[][]  
- []
-
 [56
 
-]
-Overfull \hbox (213.39566pt too wide) has occurred while \output is active
-[][]  
- []
-
-[57
+] [57
 
 ]
 File: img/chain-rule-of-multivariable-functions.png Graphic file (type bmp)
 <img/chain-rule-of-multivariable-functions.png>
+ [58
 
-Overfull \hbox (227.62204pt too wide) has occurred while \output is active
-[][]  
- []
-
-[58
-
-]
-Overfull \hbox (241.8484pt too wide) has occurred while \output is active
-[][]  
- []
-
-[59
+] [59
 
 ]
 \tf@nav=\write7
@@ -1420,22 +1330,17 @@ Overfull \hbox (241.8484pt too wide) has occurred while \output is active
 \openout9 = `deep-learning-basics-1.snm'.
 
  (./deep-learning-basics-1.aux)
+Package rerunfilecheck Info: File `deep-learning-basics-1.out' has not changed.
 
-Package rerunfilecheck Warning: File `deep-learning-basics-1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `deep-learning-basics-1.out':
-(rerunfilecheck)             Before: E143F191F54BEEF2F3585B4100AFB281;632
-(rerunfilecheck)             After:  5F2195BD44C798102EC53B833CAE61C8;802.
+(rerunfilecheck)             Checksum: 5F2195BD44C798102EC53B833CAE61C8;802.
  ) 
 Here is how much of TeX's memory you used:
- 26205 strings out of 480553
- 513661 string characters out of 5904004
- 781685 words of memory out of 5000000
- 43561 multiletter control sequences out of 15000+600000
+ 26253 strings out of 480553
+ 514093 string characters out of 5904004
+ 782255 words of memory out of 5000000
+ 43609 multiletter control sequences out of 15000+600000
  457843 words of font info for 122 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,16n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-1.dvi (59 pages, 221196 bytes).
+Output written on deep-learning-basics-1.dvi (59 pages, 223200 bytes).

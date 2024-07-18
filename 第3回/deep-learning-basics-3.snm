@@ -1,3 +1,5 @@
 \beamer@slide {eq:unit-error}{14}
 \beamer@slide {eq:equation-expressing-the-partial-derivative-with-respect-to-the-weights-using-the-unit-error}{16}
 \beamer@slide {eq:equation-expressing-the-partial-derivative-with-respect-to-the-bias-using-the-unit-error}{18}
+\beamer@slide {eq:output-layer-unit-error}{21}
+\beamer@slide {eq:hidden-layer-unit-error}{23}
