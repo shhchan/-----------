@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  6 JUL 2024 00:41
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  18 JUL 2024 22:58
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -910,6 +910,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 brarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+
 (d:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 File: l3backend-dvipdfmx.def 2021-10-12 L3 backend support: dvipdfmx
 
@@ -925,28 +927,28 @@ File: l3backend-dvipdfmx.def 2021-10-12 L3 backend support: dvipdfmx
 ) (./deep-learning-basics-3.aux)
 \openout1 = `deep-learning-basics-3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
@@ -981,7 +983,7 @@ LaTeX Font Info:    ... okay on input line 33.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 33.
+Package hyperref Info: Link coloring ON on input line 40.
 (d:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -993,9 +995,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./deep-learning-basics-3.out) (./deep-learning-basics-3.out)
 \@outlinefile=\write6
@@ -1027,30 +1029,30 @@ English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./deep-learning-basics-3.nav)
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
 
-Overfull \vbox (15.63992pt too high) detected at line 37
+Overfull \vbox (15.63992pt too high) detected at line 44
  []
 
 [1
 
 ] (./deep-learning-basics-3.toc)
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 49.
  [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 
 
 (d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
 
 
 (d:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1059,7 +1061,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-49.
+56.
 
 (d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1071,7 +1073,7 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 File: img/image-of-a-ball-rolling-down-a-slope.png Graphic file (type bmp)
 <img/image-of-a-ball-rolling-down-a-slope.png>
 
-Overfull \vbox (0.63525pt too high) detected at line 60
+Overfull \vbox (0.63525pt too high) detected at line 67
  []
 
 [6
@@ -1081,19 +1083,19 @@ File: img/illustration-of-variable-and-parameter-names.png Graphic file (type b
 mp)
 <img/illustration-of-variable-and-parameter-names.png>
 
-Overfull \vbox (16.8208pt too high) detected at line 67
+Overfull \vbox (16.8208pt too high) detected at line 74
  []
 
 [7
 
 ]
-Overfull \vbox (7.49449pt too high) detected at line 92
+Overfull \vbox (7.49449pt too high) detected at line 99
  []
 
 [8
 
 ]
-Overfull \hbox (8.90964pt too wide) detected at line 100
+Overfull \hbox (8.90964pt too wide) detected at line 107
 []
  []
 
@@ -1117,7 +1119,7 @@ pe bmp)
 File: img/image-of-unit-error.png Graphic file (type bmp)
 <img/image-of-unit-error.png>
 
-Overfull \vbox (4.51329pt too high) detected at line 137
+Overfull \vbox (4.51329pt too high) detected at line 144
  []
 
 [15
@@ -1130,7 +1132,7 @@ the-weights.png Graphic file (type bmp)
 <img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-the-w
 eights.png>
 
-Overfull \vbox (13.10263pt too high) detected at line 159
+Overfull \vbox (13.10263pt too high) detected at line 166
  []
 
 [17
@@ -1143,7 +1145,7 @@ the-bias.png Graphic file (type bmp)
 <img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-the-b
 ias.png>
 
-Overfull \vbox (19.00705pt too high) detected at line 178
+Overfull \vbox (19.00705pt too high) detected at line 185
  []
 
 [19
@@ -1151,6 +1153,64 @@ Overfull \vbox (19.00705pt too high) detected at line 178
 ] [20
 
 ] [21
+
+]
+File: img/image-of-output-layer-unit-error.png Graphic file (type bmp)
+<img/image-of-output-layer-unit-error.png>
+
+Overfull \vbox (25.14961pt too high) detected at line 213
+ []
+
+[22
+
+] [23
+
+]
+File: img/Image-of-hidden-layer-unit-error.png Graphic file (type bmp)
+<img/Image-of-hidden-layer-unit-error.png>
+ [24
+
+] [25
+
+] [26
+
+] [27
+
+]
+
+Class beamer Warning: Frame text is shrunk by a factor of 12.08954 percent inst
+ead of 0 percent on input line 262.
+
+
+Overfull \vbox (7.76079pt too high) detected at line 262
+ []
+
+[28
+
+]
+File: img/prepare-training-data.png Graphic file (type bmp)
+<img/prepare-training-data.png>
+
+Overfull \vbox (15.99405pt too high) detected at line 269
+ []
+
+[29
+
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
 
 ]
 \tf@nav=\write7
@@ -1165,15 +1225,15 @@ Overfull \vbox (19.00705pt too high) detected at line 178
  (./deep-learning-basics-3.aux)
 Package rerunfilecheck Info: File `deep-learning-basics-3.out' has not changed.
 
-(rerunfilecheck)             Checksum: 2B6D7B00D13D26853628DB20FA0596DD;284.
+(rerunfilecheck)             Checksum: DD6F8C138A8928C3D6B3509B4FC55178;425.
  ) 
 Here is how much of TeX's memory you used:
- 25744 strings out of 480553
- 500166 string characters out of 5904004
- 793109 words of memory out of 5000000
- 43137 multiletter control sequences out of 15000+600000
- 452465 words of font info for 103 fonts, out of 8000000 for 9000
+ 25866 strings out of 480553
+ 503055 string characters out of 5904004
+ 792620 words of memory out of 5000000
+ 43248 multiletter control sequences out of 15000+600000
+ 454947 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-3.dvi (21 pages, 76436 bytes).
+Output written on deep-learning-basics-3.dvi (37 pages, 141116 bytes).
