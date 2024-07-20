@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  18 JUL 2024 22:58
+This is e-pTeX, Version 3.141592653-p3.9.0-210218-2.6 (utf8.sjis) (TeX Live 2021/W32TeX) (preloaded format=platex 2021.10.18)  20 JUL 2024 09:56
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1061,7 +1061,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-56.
+57.
 
 (d:/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1073,7 +1073,7 @@ File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 File: img/image-of-a-ball-rolling-down-a-slope.png Graphic file (type bmp)
 <img/image-of-a-ball-rolling-down-a-slope.png>
 
-Overfull \vbox (0.63525pt too high) detected at line 67
+Overfull \vbox (0.63525pt too high) detected at line 68
  []
 
 [6
@@ -1083,19 +1083,19 @@ File: img/illustration-of-variable-and-parameter-names.png Graphic file (type b
 mp)
 <img/illustration-of-variable-and-parameter-names.png>
 
-Overfull \vbox (16.8208pt too high) detected at line 74
+Overfull \vbox (16.8208pt too high) detected at line 75
  []
 
 [7
 
 ]
-Overfull \vbox (7.49449pt too high) detected at line 99
+Overfull \vbox (7.49449pt too high) detected at line 100
  []
 
 [8
 
 ]
-Overfull \hbox (8.90964pt too wide) detected at line 107
+Overfull \hbox (8.90964pt too wide) detected at line 108
 []
  []
 
@@ -1119,7 +1119,7 @@ pe bmp)
 File: img/image-of-unit-error.png Graphic file (type bmp)
 <img/image-of-unit-error.png>
 
-Overfull \vbox (4.51329pt too high) detected at line 144
+Overfull \vbox (4.51329pt too high) detected at line 145
  []
 
 [15
@@ -1132,7 +1132,7 @@ the-weights.png Graphic file (type bmp)
 <img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-the-w
 eights.png>
 
-Overfull \vbox (13.10263pt too high) detected at line 166
+Overfull \vbox (13.10263pt too high) detected at line 167
  []
 
 [17
@@ -1145,7 +1145,7 @@ the-bias.png Graphic file (type bmp)
 <img/image-of-the-partial-derivative-of-the-squared-error-with-respect-to-the-b
 ias.png>
 
-Overfull \vbox (19.00705pt too high) detected at line 185
+Overfull \vbox (19.00705pt too high) detected at line 186
  []
 
 [19
@@ -1158,7 +1158,7 @@ Overfull \vbox (19.00705pt too high) detected at line 185
 File: img/image-of-output-layer-unit-error.png Graphic file (type bmp)
 <img/image-of-output-layer-unit-error.png>
 
-Overfull \vbox (25.14961pt too high) detected at line 213
+Overfull \vbox (25.14961pt too high) detected at line 214
  []
 
 [22
@@ -1179,10 +1179,10 @@ File: img/Image-of-hidden-layer-unit-error.png Graphic file (type bmp)
 ]
 
 Class beamer Warning: Frame text is shrunk by a factor of 12.08954 percent inst
-ead of 0 percent on input line 262.
+ead of 0 percent on input line 263.
 
 
-Overfull \vbox (7.76079pt too high) detected at line 262
+Overfull \vbox (7.76079pt too high) detected at line 263
  []
 
 [28
@@ -1191,7 +1191,7 @@ Overfull \vbox (7.76079pt too high) detected at line 262
 File: img/prepare-training-data.png Graphic file (type bmp)
 <img/prepare-training-data.png>
 
-Overfull \vbox (15.99405pt too high) detected at line 269
+Overfull \vbox (15.99405pt too high) detected at line 270
  []
 
 [29
@@ -1223,9 +1223,14 @@ Overfull \vbox (15.99405pt too high) detected at line 269
 \openout9 = `deep-learning-basics-3.snm'.
 
  (./deep-learning-basics-3.aux)
-Package rerunfilecheck Info: File `deep-learning-basics-3.out' has not changed.
 
-(rerunfilecheck)             Checksum: DD6F8C138A8928C3D6B3509B4FC55178;425.
+Package rerunfilecheck Warning: File `deep-learning-basics-3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `deep-learning-basics-3.out':
+(rerunfilecheck)             Before: 23C5C29FB01D3A983531FFAF7222FEEE;432
+(rerunfilecheck)             After:  DD6F8C138A8928C3D6B3509B4FC55178;425.
  ) 
 Here is how much of TeX's memory you used:
  25866 strings out of 480553
@@ -1236,4 +1241,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  128i,14n,124p,1813b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on deep-learning-basics-3.dvi (37 pages, 141116 bytes).
+Output written on deep-learning-basics-3.dvi (37 pages, 141404 bytes).
